@@ -15,11 +15,15 @@
 	.personalinfo {
 		background-color:hsla(166,55%,51%,0.50);
 		padding: 5px 5px 5px 5px;
-		margin:auto;
 		width: 500px;
 		float:left;
-		clear:right;
-		float:bottom;
+		}
+	.address {
+		background-color:hsla(166,55%,51%,0.50);
+		padding: 5px 5px 5px 5px;
+		width: 500px;
+		float:left;
+		margin-left:20px;
 		}
 	.submit {
 		background-color: rgba(87,201,161,1.00);
@@ -27,17 +31,15 @@
 		clear:both;
 		padding:5px 5px 5px 5px;
 		}	
-	.address {
-		background-color:hsla(166,55%,51%,0.50);
-		padding: 5px 5px 5px 5px;
-		width:500px;
-		clear:left;
-		position:absolute;
-		top:228px;
-		left:600px;
-		}
 	.heading {
 		font-size:20px;
+	}
+	.clearfix:before,.clearfix:after {
+		content: ' ';
+		display: table;
+	}
+	.clearfix:after {
+		clear: both;
 	}
 </style>
 
@@ -49,6 +51,9 @@
 </style>
 
 </head>
+
+<div class="clearfix">
+
 	<h1>Peace Signs</h1>
     	<p>Go <a href="../ex1/exercise1.html">home</a> to read more!</p>
         
@@ -56,34 +61,33 @@
 
 		<h2>Sign up for our newsletter to recieve information on products!</h2>
 	<form action="confirmationpagecopy.html" method="get">
-    <div class="personalinfo">
-    <fieldset>
-    	<legend><div class="heading">Personal Information:</div></legend>
-    	First name:<br>
-        <input type="text" name="fname"><br>
-        Last name:<br>
-        <input type="text" name="lname"><br>
-        Email address:<br>
-        <input type="email" name="email"><br>
-        Password:<br>
-        <input type="password" name="password"><br>
-        <br />
-        <input type="radio" name="gender" value="male">Male
-        <input type="radio" name="gender" value="female">Female<br>
-        <br />
-        <em>Select the following genres you want to recieve information from:</em><br>
-        <br />
-        <input type="checkbox" name="genre" value="The Olive Branch">The Olive Branch<br>
-       	<input type="checkbox" name="genre" value="Dove and Olive Branch">Dove and Olive Branch<br>
-        <input type="checkbox" name="genre" value="Broken Rifle">Broken Rifle<br>
-        <input type="checkbox" name="genre" value="The White Poppy">The White Poppy<br>
-        <input type="checkbox" name="genre" value="Roerich's Peace Banner">Roerich's Peach Banner<br>
-        <input type="checkbox" name="genre" value="The Peace Symbol">The Peace Symbol<br>
-    </fieldset>
-    </div>
     
-<br /> 
-	
+        <div class="personalinfo">
+        <fieldset>
+            <legend><div class="heading">Personal Information:</div></legend>
+            First name:<br>
+            <input type="text" name="fname"><br>
+            Last name:<br>
+            <input type="text" name="lname"><br>
+            Email address:<br>
+            <input type="email" name="email"><br>
+            Password:<br>
+            <input type="password" name="password"><br>
+            <br />
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br>
+            <br />
+            <em>Select the following genres you want to recieve information from:</em><br>
+            <br />
+            <input type="checkbox" name="genre" value="The Olive Branch">The Olive Branch<br>
+            <input type="checkbox" name="genre" value="Dove and Olive Branch">Dove and Olive Branch<br>
+            <input type="checkbox" name="genre" value="Broken Rifle">Broken Rifle<br>
+            <input type="checkbox" name="genre" value="The White Poppy">The White Poppy<br>
+            <input type="checkbox" name="genre" value="Roerich's Peace Banner">Roerich's Peach Banner<br>
+            <input type="checkbox" name="genre" value="The Peace Symbol">The Peace Symbol<br>
+        </fieldset>
+        </div>
+        
     <div class="address">   
     <fieldset>
     	<legend><div class="heading">Address Information:</div></legend>
@@ -167,6 +171,9 @@
     </div>
         
 </form>
+
+</div>
+
 <body>
 </body>
 </html>
