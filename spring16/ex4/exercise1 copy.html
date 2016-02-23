@@ -45,6 +45,13 @@
 	.overview {
 		width:720px;
 		}
+	.clearfix:before,.clearfix:after {
+		content: ' ';
+		display: table;
+	}
+	.clearfix:after {
+		clear: both;
+	}
 </style>
 <style stype="text/css">
 	body {
@@ -55,18 +62,19 @@
 </head>
 
 <body>
+<div class="clearfix">
 
 	<div class="header">	
 	<h1>Peace Symbols</h1>
     </div>
     
     <div class="info">
-    <div class="overview">
-	<h2>Overview</h2>
-    </div>
-    	<div class="bodytext">
-		<p>A number of peace symbols have been used many ways in various cultures and contexts. The dove and olive branch was used symbolically by early Christians and then eventually became a secular peace symbol, popularized by Pablo Picasso after World War 2. In the 1950s the "peace sign", as it is known today, was designed as the logo for the British Campaign for Nuclear Disarmament[1] and adopted by anti-war and counterculture activists in the United States and elsewhere. The V hand signal and the peace flag also became international peace symbols.</p>
-        </div>
+   		<div class="overview">
+		<h2>Overview</h2>
+    	</div>
+            <div class="bodytext">
+            <p>A number of peace symbols have been used many ways in various cultures and contexts. The dove and olive branch was used symbolically by early Christians and then eventually became a secular peace symbol, popularized by Pablo Picasso after World War 2. In the 1950s the "peace sign", as it is known today, was designed as the logo for the British Campaign for Nuclear Disarmament[1] and adopted by anti-war and counterculture activists in the United States and elsewhere. The V hand signal and the peace flag also became international peace symbols.</p>
+            </div>
      </div>
 
 	<div class="nav">
@@ -98,6 +106,8 @@
 <em>Information found on <a href="https://en.wikipedia.org/wiki/Peace_symbols">Wikipedia</a></em>
 <br />
 <br />
+
+</div>
 
 </div>
 
