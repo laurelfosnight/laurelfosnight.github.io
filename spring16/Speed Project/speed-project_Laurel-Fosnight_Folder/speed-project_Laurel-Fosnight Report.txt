@@ -1,0 +1,80 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: speed-project_Laurel-Fosnight.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1440 px x 1872.1315 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Avenir Book (TrueType)
+Avenir Black (TrueType)
+Avenir Heavy (TrueType)
+Myriad Pro (OTF)
+Myriad Pro Italic (OTF)
+Myriad Pro Semibold (OTF)
+Myriad Pro Bold (OTF)
+Myriad Pro Bold Italic (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/laurelfosnight/Desktop/Car.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 24554K, 4143 by 2023 pixels
+Dimensions: 989.967 by 483.395 points 
+Resolution: 301.319 by 301.319 pixels per inch
+
+
+/Users/laurelfosnight/Desktop/Pinterest_Badge_Red.psd
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 6661K, 1164 by 1172 pixels
+Dimensions: 18.389 by 18.515 points 
+Resolution: 4557.486 by 4557.486 pixels per inch
+
+
+/Users/laurelfosnight/Desktop/Pinterest_Badge_Red.psd
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 6661K, 1164 by 1172 pixels
+Dimensions: 18.389 by 18.515 points 
+Resolution: 4557.486 by 4557.486 pixels per inch
+
+
+/Users/laurelfosnight/Documents/logo-COO3.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 94K, 207 by 117 pixels
+Dimensions: 190.935 by 107.92 points 
+Resolution: 78.058 by 78.058 pixels per inch
