@@ -311,7 +311,7 @@ a:hover {
 	color: #91a63e;
 }
 .header {
-	background-image: url(AromaCoffeeTea/Links/wedding_reception.jpg);
+	background-image: url(../Images/headerbackground.jpg);
 	margin-top: -22px;
 	width: 1440px;
 	height: 625px;
@@ -389,4 +389,19 @@ a:hover {
 	width: 400px;
 	margin-left:20px;
 }
+.button {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	padding:6px 15px 6px 15px;
+	margin-top:25px;
+}
+.button:hover {
+	background:#12301f;
+	color:white;
+}
+
 
