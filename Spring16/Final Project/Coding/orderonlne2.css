@@ -293,19 +293,32 @@ a {
 	margin-right: 30px;
 	font-weight:100;
 }
+a.menuselection {
+	font-family: Avenir, sans-serif;
+	font-size: 14px;
+	color:white;
+	text-decoration:none;
+	font-weight:100;
+	background:#969466;
+	padding:3px 5px 3px 5px;
+	margin-right:25px;
+}
 h1 {
 	font-family: "Kaushan Script", cursive;
 	color: #375e30;
 	font-size:50px;
 	font-weight:100;
 	margin:0 auto;
-	margin-left:-10px;
+	margin-left:220px;
+	margin-top:30px;
+	margin-bottom:0px;
 }
 h2 {
 	font-family: Avenir, sans-serif;
-	font-size: 23px;
+	font-size: 30px;
 	color:#91a63e;
 	font-weight:100;
+	margin-top:-1px;
 }
 p {
 	font-family: Avenir, sans-serf;
@@ -317,10 +330,10 @@ a:hover {
 	color: #91a63e;
 }
 .header {
-	background-image: url(../Images/aboutusheader.jpg);
+	background-color: #12301f;
 	margin-top: -22px;
 	width: 1440px;
-	height: 556px;
+	height: 200px;
 }
 .aromalogo {
 	width:163px;
@@ -340,20 +353,21 @@ a:hover {
     margin: 15px;
     float: left;
 }
-.contactinformation {
+.currentorder {
 	float:left;
-	width:300px;
+	width:270px;
 	min-height:600px;
 	background-color: rgba(147,159,125,0.42);
-	padding-left:25px;
+	padding-left:20px;
 	padding:40px;
 	line-height: 10px;
 }
-.aboutusinformation {
+.menu {
 	float:left;
-	width:600px;
+	width:650px;
 	min-height:600px;
-	padding:40px;
+	padding-left:30px;
+	padding-top:20px;
 	background-color: rgba(147,159,125,0.42);
 }
 .container-body {
@@ -381,7 +395,28 @@ a:hover {
 	color:white;
 	font-size:20px;
 	font-weight:100;
-	padding:6px 15px 6px 15px;
+}
+.startover {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	float:right;
+	padding:15px 20px 15px 20px;
+	margin-top:430px;
+}
+.continue {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	float:right;
+	padding:10px 20px 10px 20px;
+	margin-top:190px;
 }
 .button:hover {
 	background:#12301f;
@@ -417,55 +452,25 @@ a:hover {
 	float:left;
 	margin-left:227px;
 }
-.scrollingcontainer {
-	width: 1026px;
-	overflow: hidden;
-	margin: 50px auto;
-	background: white;
+.time {
+	background:#c6c2b1;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	padding:6px 15px 6px 15px;
+	border-radius: 0; 
 }
-.photobanner {
- height: 280px;
- width: 3800px;
+.date {
+	background:#c6c2b1;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	padding:6px 15px 6px 15px;
+	border-radius: 0; 
 }
-.first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
-}
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -2125px;
- }
-}
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
-}
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
-}
+
+

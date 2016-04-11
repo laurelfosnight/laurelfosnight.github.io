@@ -302,8 +302,8 @@ h1 {
 	margin-left:-10px;
 }
 h2 {
-	font-family: Avenir, sans-serif;
-	font-size: 23px;
+	font-family:Avenir, sans-serif;
+	font-size:28px;
 	color:#91a63e;
 	font-weight:100;
 }
@@ -312,12 +312,13 @@ p {
 	font-weight:100;
 	color:black;
 	font-size:20px;
+	width:300px;
 }
 a:hover {
 	color: #91a63e;
 }
 .header {
-	background-image: url(../Images/aboutusheader.jpg);
+	background-image: url(../Images/menubackground.png);
 	margin-top: -22px;
 	width: 1440px;
 	height: 556px;
@@ -335,73 +336,12 @@ a:hover {
 	font-size:22px;
 	padding-top:10px;
 }
-.section-column {
-    padding: 10px;
-    margin: 15px;
-    float: left;
-}
-.contactinformation {
-	float:left;
-	width:300px;
-	min-height:600px;
+.container-body1 {
 	background-color: rgba(147,159,125,0.42);
-	padding-left:25px;
-	padding:40px;
-	line-height: 10px;
-}
-.aboutusinformation {
-	float:left;
-	width:600px;
-	min-height:600px;
-	padding:40px;
-	background-color: rgba(147,159,125,0.42);
-}
-.container-body {
-	background-color: none;
 	width: 1026px;
 	margin:0 auto;
+	margin-top:20px;
 	margin-bottom: 15px;
-}
-.container-bottomrow {
-	margin: 0;
-    width: 1440px;
-	height:150px;
-	background-color: #9f9681;
-}
-.container-footer {
-	margin:0;
-	width:1440px;
-	height:85px;
-	background-color: #2b4427;
-}
-.button {
-	background:#969466;
-	border:none;
-	font-family: Avenir, "Avenir Light", sans-serif;
-	color:white;
-	font-size:20px;
-	font-weight:100;
-	padding:6px 15px 6px 15px;
-}
-.button:hover {
-	background:#12301f;
-	color:white;
-}
-.row clearfix:after {
-	clear:both;
-	}
-.row clearfix, .row clearfix:after {
-    content: " ";
-    display: table;
-	}
-.section-column2 {
-	float:left;
-	margin-left:227px;
-	padding-right: 95px;
-	margin-top: 15px;
-	font-family:Avenir, "Avenir Medium", sans-serif;
-	color:white;
-	font-size:13px;
 }
 .section-column1 {
 	float:left;
@@ -412,60 +352,57 @@ a:hover {
 	color:white;
 	background-color: #9f9681;
 }
-
-.section-column3 {
+.container-bottomrow {
+	margin: 0;
+    width: 1440px;
+	height:150px;
+	background-color: #9f9681;
+}
+.section-column2 {
 	float:left;
 	margin-left:227px;
+	padding-right: 95px;
+	margin-top: 15px;
+	font-family:Avenir, "Avenir Medium", sans-serif;
+	color:white;
+	font-size:13px;
 }
-.scrollingcontainer {
-	width: 1026px;
-	overflow: hidden;
-	margin: 50px auto;
-	background: white;
+.container-footer {
+	margin:0;
+	width:1440px;
+	height:85px;
+	background-color: #2b4427;
 }
-.photobanner {
- height: 280px;
- width: 3800px;
+.section-column3 {
+	float:left;
+	padding:30px 0px 30px 0px;
 }
-.first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+.paragraph1container {
+	width: 400px;
+	margin-left:30px;
 }
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -2125px;
- }
+.section-column4 {
+	float:left;
+	padding:20px;
+	margin-left:20px;
+	padding-bottom:60px;
+	padding-top:60px;
 }
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
+.paragraph2container {
+	width: 400px;
+	margin-left:20px;
 }
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
+.button {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	padding:6px 15px 6px 15px;
+	margin-top:25px;
 }
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
+.button:hover {
+	background:#12301f;
+	color:white;
 }

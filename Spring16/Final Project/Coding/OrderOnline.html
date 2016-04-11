@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Aroma</title>
+<title>OrderOnline</title>
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 <link href="normalize.css" rel="stylesheet">
-<link href="main.css" rel="stylesheet">
+<link href="orderonlne.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="wrapper">
+<div class="wrapper">
     <!--wraps the whole document-->
     
     <!--header of webpage-->
@@ -24,53 +24,46 @@
                     <a href="OrderOnline.html">Order Online</a>
                     <a href="Directions.html">Directions</a>
                     <a href="Contact.html">Contact</a>
-                    <a href="aboutus.html">About Us</a>
                 </div>
                 
-                <div class="welcomestatement">
-                    <img src="../Images/welcometoaroma.png" alt="welcome" id="welcometoaroma" />
-                </div>
             </header>
 		</div>
 	<!--end of header--> 
     
     <!--beginning of body-->
-    <main role="main">
-    	<div class="container-body">
-        	<div class="sectiontitle clearfix">
-            	<section class="section-column3">
-                	<img src="../Images/fourimage.png" alt="foodimages">
+ 	<main role="main">
+    <h1> Order Online</h1>
+    <p style="margin-left:227px;"> In a hurry? Send in your order to us and we’ll have it ready for you when you get here.</p>
+    	<div class="row clearfix">
+            <div class="container-body">
+               <section class="section-column">
+                    <div class="aboutusinformation">
+                        <p><strong>Select a pickup date and time</strong></p>
+                            <p>Pickup Date:
+                                <fieldset>
+                                    <input type="date" name="bday" class="date" max="2016-12-31">
+                                </fieldset>
+                            </p>
+                            <p>Pickup Time:
+                            	<fieldset>
+                                    <input type="time" name="pickuptime" class="time" max="8:00pm">
+                                </fieldset>
+                            </p>
+                            <a href="OrderOnline2.html" class="continue" type="button">Continue</a>
+                    </div>
                 </section><!--end of section 1-->
                 
-                <section class="section-column3">
-                	<div class="paragraph1container">
-                        <h1>Discover</h1>
-                        <p>Enjoy a delicious meal from our kitchen, fresh pastries from our bakery or one of our hand crafted coffees or teas.</p>
-                        <p> Look at a Menu and see what we have to offer or Order Online so your selection is ready when you get here!</p>
-                        	<div class="paragraph1buttons">
-                            	<a href="Menu.html" class="button" type="button">Menu</a>
-                                <a href="OrderOnline.html" class="button" type="button">Order Online</a>
-                            </div>
+                
+                <section class="section-column">
+                	<div class="contactinformation">
+                        <h2>Current Order</h2>
+                        <a href="#" class="startover" type="button">Start Over</a>
                     </div>
-                </section><!--end of section2-->
-            </div>
-            
-            <div class="sectiontitle clearfix">
-            	<section class="section-column4">
-                	<div class="paragraph2container">
-                        <h1>About Us</h1>
-                        <p>Find out a little bit About Us and Aroma’s location in Studio City, CA.</p>
-                        	<div class="paragraph2buttons">
-                            	<a href="aboutus.html" class="button" type="button">About Us</a>
-                            </div>
-                    </div>
-                </section><!--end of section 1-->
-                <section class="section-column4">
-                	<img src="../Images/aboutusimage.jpg" alt="aromafront">
-                </section><!--end of section2-->
+                </section><!--end of section 2-->
             </div>
         </div>
     </main>
+
     
     <div class="container-bottomrow">
         <div class="sectiontitle">
@@ -117,8 +110,8 @@
     <!--end of footer-->
         
         
-        
-        
-	</div>
+</div>
+</body>
+<body>
 </body>
 </html>

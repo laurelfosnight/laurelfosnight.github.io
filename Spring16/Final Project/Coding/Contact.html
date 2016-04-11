@@ -2,15 +2,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Aroma</title>
+<title>Directions</title>
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 <link href="normalize.css" rel="stylesheet">
-<link href="main.css" rel="stylesheet">
+<link href="contact.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="wrapper">
-    <!--wraps the whole document-->
+
+<div class="wrapper">
+    <!--wraps whole document-->
     
     <!--header of webpage-->
     	<div class="container">
@@ -20,55 +21,57 @@
                 </div>
                 
                 <div class="navigationbar">
-                    <a href="Menu.html">Menu</a>
-                    <a href="OrderOnline.html">Order Online</a>
-                    <a href="Directions.html">Directions</a>
-                    <a href="Contact.html">Contact</a>
+                    <a href="../menu.html">Menu</a>
+                    <a href="../order-online.html">Order Online</a>
+                    <a href="../contact.html">Contact</a>
                     <a href="aboutus.html">About Us</a>
                 </div>
                 
-                <div class="welcomestatement">
-                    <img src="../Images/welcometoaroma.png" alt="welcome" id="welcometoaroma" />
-                </div>
             </header>
 		</div>
 	<!--end of header--> 
     
-    <!--beginning of body-->
-    <main role="main">
+    <!--Body-->
+    <main role="main">'
     	<div class="container-body">
-        	<div class="sectiontitle clearfix">
-            	<section class="section-column3">
-                	<img src="../Images/fourimage.png" alt="foodimages">
-                </section><!--end of section 1-->
-                
-                <section class="section-column3">
-                	<div class="paragraph1container">
-                        <h1>Discover</h1>
-                        <p>Enjoy a delicious meal from our kitchen, fresh pastries from our bakery or one of our hand crafted coffees or teas.</p>
-                        <p> Look at a Menu and see what we have to offer or Order Online so your selection is ready when you get here!</p>
-                        	<div class="paragraph1buttons">
-                            	<a href="Menu.html" class="button" type="button">Menu</a>
-                                <a href="OrderOnline.html" class="button" type="button">Order Online</a>
+        	<p style="text-align:center; padding-top:60px; font-size:25px;">Give us feedback so we can better serve you!</p>
+                <fieldset>
+                    <div class="formsections">
+                        <div class="formrow1">
+                            <div class="clearfix">
+                                <div class="firstname">
+                                    <p>First Name</p>
+                                    <input type="text" name="firstname"><br>
+                                </div>
+                                <div class="lastname">
+                                    <p>Last Name</p>
+                                    <input type="text" name="lastname"><br>
+                                </div>
+                                <div class="subject">
+                                    <p>Subject</p>
+                                    <input type="text" id="subject" name"subject"><br>
+                                </div>
                             </div>
-                    </div>
-                </section><!--end of section2-->
-            </div>
-            
-            <div class="sectiontitle clearfix">
-            	<section class="section-column4">
-                	<div class="paragraph2container">
-                        <h1>About Us</h1>
-                        <p>Find out a little bit About Us and Aroma’s location in Studio City, CA.</p>
-                        	<div class="paragraph2buttons">
-                            	<a href="aboutus.html" class="button" type="button">About Us</a>
+                        </div> 
+                        
+                        <div class="formrow2">
+                            <div class="email">
+                                <p>Email</p>
+                                <input type="text" id="email" name="email"><br>
+                                <p>Phone</p>
+                                <input type="text" id="phone" name="phone"><br>
+                                <br>
+                                <a href="ConfirmationPage.html" class="button" type="button">Submit</a>
                             </div>
+                            
+                            <div class="message">
+                                <p>Message</p>
+                                <input type="text" id="message" name="message"><br>
+                            </div>
+                        </div>
+                        
                     </div>
-                </section><!--end of section 1-->
-                <section class="section-column4">
-                	<img src="../Images/aboutusimage.jpg" alt="aromafront">
-                </section><!--end of section2-->
-            </div>
+                </fieldset>
         </div>
     </main>
     
@@ -95,7 +98,7 @@
 	</div>
     <!--end of body-->
     
-    <!--beginning of footer-->
+     <!--beginning of footer-->
     	<div class="row clearfix footer">
         	<div class="container-footer">
                 <footer class="footer" id="footer">
@@ -115,10 +118,10 @@
 			</div>
         </div>
     <!--end of footer-->
-        
-        
-        
-        
-	</div>
+    
+    
+</div>
+
+
 </body>
 </html>

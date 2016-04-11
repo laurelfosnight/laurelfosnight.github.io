@@ -312,15 +312,16 @@ p {
 	font-weight:100;
 	color:black;
 	font-size:20px;
+	line-height:4px;
 }
 a:hover {
 	color: #91a63e;
 }
 .header {
-	background-image: url(../Images/aboutusheader.jpg);
+	background-color: #12301f;
 	margin-top: -22px;
 	width: 1440px;
-	height: 556px;
+	height: 200px;
 }
 .aromalogo {
 	width:163px;
@@ -343,24 +344,24 @@ a:hover {
 .contactinformation {
 	float:left;
 	width:300px;
-	min-height:600px;
 	background-color: rgba(147,159,125,0.42);
 	padding-left:25px;
 	padding:40px;
 	line-height: 10px;
 }
-.aboutusinformation {
+.googlemap {
 	float:left;
 	width:600px;
-	min-height:600px;
-	padding:40px;
+	padding:25px;
 	background-color: rgba(147,159,125,0.42);
 }
 .container-body {
-	background-color: none;
+	background-color: rgba(147,159,125,0.42);;
 	width: 1026px;
 	margin:0 auto;
 	margin-bottom: 15px;
+	min-height:450px;
+	padding-left:30px;
 }
 .container-bottomrow {
 	margin: 0;
@@ -382,6 +383,7 @@ a:hover {
 	font-size:20px;
 	font-weight:100;
 	padding:6px 15px 6px 15px;
+	float:left;
 }
 .button:hover {
 	background:#12301f;
@@ -415,57 +417,47 @@ a:hover {
 
 .section-column3 {
 	float:left;
-	margin-left:227px;
+	margin-left:227px;	
 }
-.scrollingcontainer {
-	width: 1026px;
-	overflow: hidden;
-	margin: 50px auto;
-	background: white;
+.formsections {
+	padding:30px 30px 30px 30px;
 }
-.photobanner {
- height: 280px;
- width: 3800px;
+input {
+	border: 1px solid #969466;
+	background:#ffffff;
+	height:33.5px;
+	width:198px;
+	font-family: Avenir, sans-serif;
 }
-.first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+.firstname {
+	float:left;
+	padding-right:20px;
 }
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -2125px;
- }
+.lastname {
+	float:left;
+	padding-right:20px;
 }
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
+.subject {
+	float:left;
 }
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
+#subject {
+	width:450px;
 }
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -2125px;
- }
+.email {
+	float:left;
+	padding-right:20px;
 }
+.message {
+	float:left;
+}
+#email {
+	width:415px;
+}
+#message {
+	width:450px;
+	min-height:112px;
+}
+#phone {
+	width:415px;
+}
+
