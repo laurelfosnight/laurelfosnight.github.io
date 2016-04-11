@@ -20,8 +20,8 @@
                 </div>
                 
                 <div class="navigationbar">
-                    <a href="../menu.html">Menu</a>
-                    <a href="../order-online.html">Order Online</a>
+                    <a href="Menu.html">Menu</a>
+                    <a href="OrderOnline.html">Order Online</a>
                     <a href="Contact.html">Contact</a>
                     <a href="aboutus.html">About Us</a>
                 </div>
@@ -51,7 +51,15 @@
                 
                 <section class="section-column">
                     <div class="googlemap">
-                    	<img src="../Images/MapClip.png" alt="mapclip">
+                    	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+                        <div style="overflow:hidden;height:449px;width:549px;">
+                        	<div id="gmap_canvas" style="height:449px;width:549px;"></div>
+                            	<div><small><a href="http://embedgooglemaps.com"></a>
+                            		 </small>
+                            </div>
+                            <div><small><a href="http://www.proxysitereviews.com/">proxies</a></small></div>
+							<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+							<script type="text/javascript">function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(34.1494302,-118.37872670000002),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.1494302,-118.37872670000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Aroma Coffee & Tea</strong><br>4360 Tujunga Ave, Los Angeles, CA 91604<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
                     </div>
                 </section><!--end of section 2-->
             </div>
