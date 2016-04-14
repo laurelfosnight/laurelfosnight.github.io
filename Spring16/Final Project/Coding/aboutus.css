@@ -307,6 +307,9 @@ h2 {
 	color:#91a63e;
 	font-weight:100;
 }
+strong {
+	color: #2b4427;
+}
 p {
 	font-family: Avenir, sans-serf;
 	font-weight:100;
