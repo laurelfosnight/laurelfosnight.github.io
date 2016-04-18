@@ -290,7 +290,6 @@ a {
 	font-size: 20px;
 	color: rgba(255,255,255,1.00);
 	text-decoration:none;
-	margin-right: 30px;
 	font-weight:100;
 }
 a.menuselection {
@@ -303,13 +302,15 @@ a.menuselection {
 	padding:3px 5px 3px 5px;
 	margin-right:25px;
 }
+a.nav{
+	margin-right:30px;
+}
 h1 {
 	font-family: "Kaushan Script", cursive;
 	color: #375e30;
 	font-size:50px;
 	font-weight:100;
 	margin:0 auto;
-	margin-left:220px;
 	margin-top:30px;
 	margin-bottom:0px;
 }
@@ -319,6 +320,43 @@ h2 {
 	color:#91a63e;
 	font-weight:100;
 	margin-top:-1px;
+}
+.foodselection {
+	font-family:Avenir, sans-serif;
+	font-size:20px;
+	color: #2b4427;
+	font-weight:500;
+	margin-left:10px;
+	margin-bottom:0px;
+}
+.fixit{
+	width: 600px;
+}
+h4 {
+	font-family:Avenir, sans-serif;
+	font-size:17px;
+	color:black;
+	font-weight:100;
+	margin-left: 80px;
+	margin-top:0px;
+}
+
+
+.stylethis
+{
+		font-family: avenir;
+		margin: 0px;
+}
+
+
+
+input {
+	font-family:Avenir, sans-serif;
+	font-size:20px;
+	color: #2b4427;
+	font-weight:500;
+	margin-left:50px;
+	margin-bottom:0px;
 }
 p {
 	font-family: Avenir, sans-serf;
@@ -349,14 +387,13 @@ a:hover {
 	padding-top:10px;
 }
 .section-column {
-    padding: 10px;
-    margin: 15px;
     float: left;
 }
 .currentorder {
 	float:left;
-	width:270px;
-	min-height:600px;
+	margin-top:20px;
+	width:320px;
+	min-height:200px;
 	background-color: rgba(147,159,125,0.42);
 	padding-left:20px;
 	padding:40px;
@@ -364,10 +401,12 @@ a:hover {
 }
 .menu {
 	float:left;
-	width:650px;
-	min-height:600px;
+	width:685px;
+	margin-top:20px;
+	min-height:200px;
 	padding-left:30px;
 	padding-top:20px;
+	margin-right:20px;
 	background-color: rgba(147,159,125,0.42);
 }
 .container-body {
@@ -375,6 +414,10 @@ a:hover {
 	width: 1026px;
 	margin:0 auto;
 	margin-bottom: 15px;
+}
+.container-body1 {
+	float:left;
+	padding-right:30px;
 }
 .container-bottomrow {
 	margin: 0;
@@ -405,7 +448,18 @@ a:hover {
 	font-weight:100;
 	float:right;
 	padding:15px 20px 15px 20px;
-	margin-top:430px;
+	margin-top:40px;
+}
+.menucollage {
+	background: rgba(147,159,125,0.42);
+	width:1026px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding: 15px 15px 15px 15px;
+}
+.foodphotos {
+	padding: 10px 10px 10px 12px;
 }
 .continue {
 	background:#969466;
@@ -438,6 +492,12 @@ a:hover {
 	color:white;
 	font-size:13px;
 }
+.section-column3 {
+    padding: 10px;
+    margin: 15px;
+    float: left;
+}
+	
 .section-column1 {
 	float:left;
 	margin-left:227px;
@@ -448,10 +508,6 @@ a:hover {
 	background-color: #9f9681;
 }
 
-.section-column3 {
-	float:left;
-	margin-left:227px;
-}
 .time {
 	background:#c6c2b1;
 	border:none;
@@ -475,7 +531,7 @@ a:hover {
 .menu-button {
     background-color: #969466;
     color: white;
-    padding: 9px 11px 9px 11px;
+    padding: 6px 19px 6px 19px;
 	font-family:Avenir, sans-serif;
     font-size: 16px;
     border: none;
@@ -517,5 +573,27 @@ a:hover {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-
-
+.sectionmenu {
+	display: none;
+	background: rgba(242,248,226,1.00);
+	padding: 25px;
+	width:685px;
+	margin-left:-30px;
+}
+.placeanorder {
+	background-color: #969466;
+    color: white;
+    padding: 9px 11px 9px 11px;
+	font-family:Avenir, sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin-top:50px;
+	float:right;
+}
+.button {
+	float:left;
+}
+strong {
+	font-weight: 500;
+}

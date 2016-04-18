@@ -299,7 +299,7 @@ h1 {
 	font-size:50px;
 	font-weight:100;
 	margin:0 auto;
-	margin-left:220px;
+	margin-left:225px;
 	margin-top:30px;
 	margin-bottom:0px;
 }
@@ -354,11 +354,14 @@ a:hover {
 }
 .aboutusinformation {
 	float:left;
-	width:600px;
-	min-height:600px;
+	width:1026px;
+	min-height:300px;
 	padding-left:30px;
 	padding-top:20px;
 	background-color: rgba(147,159,125,0.42);
+}
+strong {
+	font-weight:500;
 }
 .container-body {
 	background-color: none;
@@ -406,7 +409,8 @@ a:hover {
 	font-weight:100;
 	float:right;
 	padding:10px 20px 10px 20px;
-	margin-top:190px;
+	margin-bottom:20px;
+	margin-top:15px;
 }
 .button:hover {
 	background:#12301f;
