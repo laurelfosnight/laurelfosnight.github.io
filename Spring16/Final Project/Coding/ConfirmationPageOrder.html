@@ -2,14 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Contact</title>
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="normalize.css" rel="stylesheet">
-<link href="directions.css" rel="stylesheet">
+<title>Confirmation Page</title>
+<link href="confirmationpageorder.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-	<div class="wrapper">
+
+<div class="wrapper">
     <!--wraps whole document-->
     
     <!--header of webpage-->
@@ -31,37 +29,13 @@
 		</div>
 	<!--end of header--> 
     
-    <!--beginning of body-->
- 	<main role="main">
-    	<div class="row clearfix">
-            <div class="container-body">
-                <section class="section-column">
-                    <div class="contactinformation">
-                        <h2>Phone</h2>
-                            <p>818.508.0677</p><br>
-                        <h2>Fax</h2>
-                        	<p>818.508.2427</p><br>
-                        <h2>Location</h2>
-                        	<p>4360 Tujunga ave.</p>
-                            <p>Studio City, CA 91604</p><br>
-                        <h2>Hours</h2>
-                        	<p>M–S 6a–11p</p>
-                            <p>Su 6:30–11p</p><br>
-                    </div>
-                </section><!--end of section 1-->
-                
-                <section class="section-column">
-                    <div class="googlemap">
-                    	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-                        <div style="overflow:hidden;height:449px;width:549px;">
-                        <div id="gmap_canvas" style="height:449px;width:549px;"></div>
-                        <div><small><a href="http://embedgooglemaps.com"></a></small></div>
-                        <div><small><a href="http://www.proxysitereviews.com/">proxies</a></small></div>
-                        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-                        <script type="text/javascript">function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(34.1494302,-118.37872670000002),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.1494302,-118.37872670000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Aroma Coffee & Tea</strong><br>4360 Tujunga Ave, Los Angeles, CA 91604<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-                    </div>
-                </section><!--end of section 2-->
-            </div>
+    <!--Body-->
+    <main role="main">'
+    	<div class="container-body">
+        	<p style="text-align:center; padding-top:60px; font-size:25px;">Thank you!</p>
+            <p style="text-align:center;padding-top:20px;line-height:30px;">We appreciate your business! Your order will be <br>processed and ready when you arrive.</p>
+            <p style="text-align:center; color:#2b4427; font-weight:600; padding-top:6px;">Aroma Coffee and Tea</p>
+            <a href="Main.html" class="button" type="button">Return Home</a>
         </div>
     </main>
     
@@ -110,11 +84,7 @@
     <!--end of footer-->
     
     
-    
-    
-    
-    
-    
-    </div>
+</div>
+<body>
 </body>
 </html>

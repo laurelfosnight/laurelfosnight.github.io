@@ -299,24 +299,20 @@ h1 {
 	font-size:50px;
 	font-weight:100;
 	margin:0 auto;
-	margin-left:225px;
-	margin-top:30px;
-	margin-bottom:0px;
+	margin-left:-10px;
 }
 h2 {
 	font-family: Avenir, sans-serif;
-	font-size: 30px;
+	font-size: 23px;
 	color:#91a63e;
 	font-weight:100;
-	margin-top:-1px;
 }
 p {
 	font-family: Avenir, sans-serf;
 	font-weight:100;
 	color:black;
-	font-size:18px;
-	display:inline;
-	line-height:30px;
+	font-size:20px;
+	line-height:4px;
 }
 a:hover {
 	color: #91a63e;
@@ -342,35 +338,30 @@ a:hover {
 }
 .section-column {
     padding: 10px;
+    margin: 15px;
     float: left;
-	min-height:300px;
-	margin-bottom:20px;
 }
 .contactinformation {
 	float:left;
-	width:385px;
+	width:300px;
 	background-color: rgba(147,159,125,0.42);
-	padding-left:40px;
-	padding-top:20px;
+	padding-left:25px;
+	padding:40px;
+	line-height: 10px;
 }
-.paymentinformation {
+.googlemap {
 	float:left;
 	width:600px;
-	min-height:316px;
+	padding:25px;
 	background-color: rgba(147,159,125,0.42);
-	padding-left:40px;
-	padding-top:20px;
-	padding-bottom:20px;
-	line-height: 20px;
-}
-strong {
-	font-weight:500;
 }
 .container-body {
-	background-color: none;
+	background-color: rgba(147,159,125,0.42);;
 	width: 1026px;
 	margin:0 auto;
 	margin-bottom: 15px;
+	min-height:300px;
+	padding-left:30px;
 }
 .container-bottomrow {
 	margin: 0;
@@ -389,34 +380,12 @@ strong {
 	border:none;
 	font-family: Avenir, "Avenir Light", sans-serif;
 	color:white;
-	font-size:17px;
-	font-weight:100;
-	padding:10px 16px 10px 16px;
-	float:right;
-	margin-top:60px;
-}
-.startover {
-	background:#969466;
-	border:none;
-	font-family: Avenir, "Avenir Light", sans-serif;
-	color:white;
 	font-size:20px;
 	font-weight:100;
-	float:right;
-	padding:15px 20px 15px 20px;
-	margin-top:430px;
-}
-.continue {
-	background:#969466;
-	border:none;
-	font-family: Avenir, "Avenir Light", sans-serif;
-	color:white;
-	font-size:20px;
-	font-weight:100;
-	float:right;
-	padding:10px 20px 10px 20px;
-	margin-bottom:20px;
-	margin-top:15px;
+	padding:6px 15px 6px 15px;
+	float:left;
+	margin-top:10px;
+	margin-left:425px;
 }
 .button:hover {
 	background:#12301f;
@@ -450,87 +419,6 @@ strong {
 
 .section-column3 {
 	float:left;
-	margin-left:227px;
-}
-.time {
-	background:#c6c2b1;
-	border:none;
-	font-family: Avenir, "Avenir Light", sans-serif;
-	color:white;
-	font-size:20px;
-	font-weight:100;
-	padding:6px 15px 6px 15px;
-	border-radius: 0; 
-}
-.date {
-	background:#c6c2b1;
-	border:none;
-	font-family: Avenir, "Avenir Light", sans-serif;
-	color:white;
-	font-size:20px;
-	font-weight:100;
-	padding:6px 15px 6px 15px;
-	border-radius: 0; 
-}
-button.continue:hover {
-	background:#12301f;
-	color:white;
-}
-a.continue:hover {
-	background:#12301f;
-	color:white;
+	margin-left:227px;	
 }
 
-.firstname {
-	float:left;
-	padding-right:30px;
-}
-.lastname {
-	float:left;
-	padding-right:30px;
-}
-.phone {
-	float:left;
-	padding-right:30px;
-}
-.email {
-	float:left;
-	padding-right:30px;
-}
-select {
-    background: #c6c2b1;
-	border:none;
-    font-family: Avenir, "Avenir Light", sans-serif;
-    color: white;
-	padding:10px 15px 10px 15px;
-    font-size: 16px;
-    font-weight: 100;
-	border-radius:0px !important;
-	width:195px;
-	height:31px;
-}
-.paymenttype {
-	float:left;
-	padding-right:30px;
-}
-
-.nameoncard {
-	float:left;
-	padding-right:30px;
-}
-.cardtype {
-	float:left;
-	padding-right:30px;
-}
-.cardnumber {
-	float:left;
-	padding-right:30px;
-}
-#birthyear {
-	width:80px;
-	float:left;
-}
-#month {
-	float:left;
-	margin-right:30px;
-}
