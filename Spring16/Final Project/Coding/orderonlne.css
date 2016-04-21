@@ -315,6 +315,8 @@ p {
 	font-weight:100;
 	color:black;
 	font-size:20px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 a:hover {
 	color: #91a63e;
@@ -473,4 +475,34 @@ button.continue:hover {
 a.continue:hover {
 	background:#12301f;
 	color:white;
+}
+.years {
+	float:left;
+	margin-right:30px;
+}
+.days {
+	float:left;
+	margin-right:30px;
+}
+.months {
+	float:left;
+	margin-right:30px;
+}
+select {
+    background: #c6c2b1;
+	border:none;
+    font-family: Avenir, "Avenir Light", sans-serif;
+    color: white;
+	padding:10px 15px 10px 15px;
+    font-size: 16px;
+    font-weight: 100;
+	border-radius:0px !important;
+	width:170px;
+	height:31px;
+}
+#day {
+	width:50px;
+}
+#year {
+	width:100px;
 }
