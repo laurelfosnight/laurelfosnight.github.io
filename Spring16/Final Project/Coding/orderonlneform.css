@@ -298,49 +298,34 @@ h1 {
 	color: #375e30;
 	font-size:50px;
 	font-weight:100;
-	margin-top:0px;
-}
-h2 {
-	font-family:Avenir, sans-serif;
-	font-size:28px;
-	color:#91a63e;
-	font-weight:100;
-}
-h3 {
-	font-family:Avenir, sans-serif;
-	font-size:20px;
-	color: #2b4427;
-	font-weight:500;
-	margin-left:50px;
+	margin:0 auto;
+	margin-left:225px;
+	margin-top:30px;
 	margin-bottom:0px;
 }
-h4 {
-	font-family:Avenir, sans-serif;
-	font-size:17px;
-	color:black;
+h2 {
+	font-family: Avenir, sans-serif;
+	font-size: 30px;
+	color:#91a63e;
 	font-weight:100;
-	margin-left: 80px;
-	margin-top:0px;
+	margin-top:-1px;
 }
 p {
 	font-family: Avenir, sans-serf;
 	font-weight:100;
 	color:black;
 	font-size:18px;
-	width:400px;
-	margin-top:0px;
+	display:inline;
+	line-height:30px;
 }
 a:hover {
 	color: #91a63e;
 }
-a:hover.ordertogolink {
-	color: #91a63e;
-}
 .header {
-	background-image: url(../Images/menubackground.png);
+	background-color: #12301f;
 	margin-top: -22px;
 	width: 1440px;
-	height: 556px;
+	height: 200px;
 }
 .aromalogo {
 	width:163px;
@@ -355,28 +340,89 @@ a:hover.ordertogolink {
 	font-size:22px;
 	padding-top:10px;
 }
-.container-body1 {
+.section-column {
+    padding: 10px;
+    margin: 15px;
+    float: left;
+}
+.contactinformation {
+	float:left;
+	width:1026px;
 	background-color: rgba(147,159,125,0.42);
+	padding-left:30px;
+	padding-top:20px;
+}
+.paymentinformation {
+	float:left;
+	width:1026px;
+	background-color: rgba(147,159,125,0.42);
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+strong {
+	font-weight:500;
+}
+.container-body {
+	background-color: none;
 	width: 1026px;
 	margin:0 auto;
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom: 15px;
 }
-
 .container-bottomrow {
 	margin: 0;
     width: 1440px;
 	height:150px;
 	background-color: #9f9681;
 }
-.section-column1 {
-	float:left;
-	margin-top:35px;
-	margin-left:227px;
-	font-family:Avenir, "Avenir Medium", sans-serif;
-	color:white;
-	background-color: #9f9681;
+.container-footer {
+	margin:0;
+	width:1440px;
+	height:85px;
+	background-color: #2b4427;
 }
+.button {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+}
+.startover {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	float:right;
+	padding:15px 20px 15px 20px;
+	margin-top:430px;
+}
+.continue {
+	background:#969466;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	float:right;
+	padding:10px 20px 10px 20px;
+	margin-bottom:20px;
+	margin-top:15px;
+}
+.button:hover {
+	background:#12301f;
+	color:white;
+}
+.row clearfix:after {
+	clear:both;
+	}
+.row clearfix, .row clearfix:after {
+    content: " ";
+    display: table;
+	}
 .section-column2 {
 	float:left;
 	margin-left:227px;
@@ -386,108 +432,72 @@ a:hover.ordertogolink {
 	color:white;
 	font-size:13px;
 }
-.container-footer {
-	margin:0;
-	width:1440px;
-	height:85px;
-	background-color: #2b4427;
+.section-column1 {
+	float:left;
+	margin-left:227px;
+	padding-right:15px;
+	margin-top:35px;
+	font-family:Avenir, "Avenir Medium", sans-serif;
+	color:white;
+	background-color: #9f9681;
 }
+
 .section-column3 {
 	float:left;
-	padding-top:20px;
+	margin-left:227px;
 }
-.section-column3 {
-	float:left;
-	padding-top:20px;
+.time {
+	background:#c6c2b1;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	padding:6px 15px 6px 15px;
+	border-radius: 0; 
 }
-.paragraph1container {
-	width: 400px;
-	margin-left:30px;
+.date {
+	background:#c6c2b1;
+	border:none;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color:white;
+	font-size:20px;
+	font-weight:100;
+	padding:6px 15px 6px 15px;
+	border-radius: 0; 
 }
-.section-column4 {
-	float:left;
-	padding:20px;
-	margin-left:20px;
-	padding-bottom:60px;
-	padding-top:60px;
-}
-.paragraph2container {
-	width: 400px;
-	margin-left:20px;
-}
-.sectiontitle {
-width: 1440px;
-}
-.menu-button {
-    background-color: #969466;
-    color: white;
-    padding: 9px 11px 9px 11px;
-	font-family:Avenir, sans-serif;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-	margin-top:20px;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2b4427;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #d5d4c2;
-    min-width: 160px;
-	font-family:Avenir, sans-serif;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-.sectionmenu {
-	display: none;
-	background: rgba(242,248,226,1.00);
-	padding: 25px;
-}
-.placeanorder {
-	background-color: #969466;
-    color: white;
-    padding: 8px 11px 8px 11px;
-	font-family:Avenir, sans-serif;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-	float:right;
-	margin-top:20px;
-}
-strong {
-	font-weight: 500;
-}
-button.placeanorder:hover{
+button.continue:hover {
 	background:#12301f;
 	color:white;
 }
-button.menu-button:hover {
+a.continue:hover {
 	background:#12301f;
 	color:white;
 }
 
+.firstname {
+	float:left;
+	padding-right:30px;
+}
+.lastname {
+	float:left;
+	padding-right:30px;
+}
+.phone {
+	float:left;
+	padding-right:30px;
+}
+.email {
+	float:left;
+	padding-right:30px;
+}
+select {
+    background: #c6c2b1;
+	border:none;
+    font-family: Avenir, "Avenir Light", sans-serif;
+    color: white;
+	padding:10px 15px 10px 15px;
+    font-size: 16px;
+    font-weight: 100;
+	border-radius:0px !important;
+}

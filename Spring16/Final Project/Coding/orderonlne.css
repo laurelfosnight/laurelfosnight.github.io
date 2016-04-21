@@ -466,3 +466,11 @@ strong {
 	padding:6px 15px 6px 15px;
 	border-radius: 0; 
 }
+button.continue:hover {
+	background:#12301f;
+	color:white;
+}
+a.continue:hover {
+	background:#12301f;
+	color:white;
+}
