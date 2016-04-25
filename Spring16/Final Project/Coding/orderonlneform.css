@@ -341,7 +341,7 @@ a:hover {
 	padding-top:10px;
 }
 .section-column {
-    padding: 10px;
+	margin-top:20px;
     float: left;
 	min-height:300px;
 	margin-bottom:20px;
@@ -352,15 +352,17 @@ a:hover {
 	background-color: rgba(147,159,125,0.42);
 	padding-left:40px;
 	padding-top:20px;
+	padding-bottom:20px;
+	margin-right:20px;
 }
 .paymentinformation {
 	float:left;
-	width:600px;
+	width:620px;
 	min-height:316px;
 	background-color: rgba(147,159,125,0.42);
 	padding-left:40px;
 	padding-top:20px;
-	padding-bottom:20px;
+	padding-bottom:35px;
 	line-height: 20px;
 }
 strong {
@@ -393,7 +395,10 @@ strong {
 	font-weight:100;
 	padding:10px 16px 10px 16px;
 	float:right;
-	margin-top:60px;
+	margin-top:75px;
+}
+.thankyoulogo {
+	float:right;
 }
 .startover {
 	background:#969466;
@@ -484,18 +489,22 @@ a.continue:hover {
 .firstname {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 .lastname {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 .phone {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 .email {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 select {
     background: #c6c2b1;
@@ -512,25 +521,44 @@ select {
 .paymenttype {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 
 .nameoncard {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 .cardtype {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
+}
+.experationdate {
+	margin-top:15px;
 }
 .cardnumber {
 	float:left;
 	padding-right:30px;
+	margin-top:15px;
 }
 #birthyear {
 	width:80px;
 	float:left;
+	margin-top:5px;
 }
 #month {
 	float:left;
 	margin-right:30px;
+	margin-top:5px;
+}
+.ordertotal {
+	width:1026px;
+	margin:0 auto;
+	background-color: rgba(147,159,125,0.42);
+	min-height: 100px;
+	padding:20px 20px 20px 30px;
+	font-family: Avenir, "Avenir Light", sans-serif;
+	color: black;
+	font-size: 16px;
 }

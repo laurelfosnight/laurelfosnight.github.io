@@ -34,11 +34,19 @@
     <!--beginning of body-->
  	<main role="main">
     <h1> Order Online</h1>
+    	<div class="ordertotal">
+        	<p style="padding: 0px 15px 15px 0px; margin-top:20px; font-size:20px; color:#12301f;"><strong>Your Order Information</strong></p><br>
+            <p><strong style="font-weight:450;">Subtotal:</strong> $20.00</p><br>
+            <p><strong style="font-weight:450;">Tax:</strong> $1.20</p><br>
+            <p><strong style="font-weight:450;">Total Cost of Meal:</strong> $21.20</p>
+        </div>
+        <img src="../Images/aromalogo.png" alt="logo" class="thankyoulogo">
+        
     	<div class="row clearfix">
             <div class="container-body">
                <section class="section-column">
                     <div class="contactinformation">
-                        <p style="padding: 0px 15px 15px 0px; margin-top:20px; font-size:20px;"><strong>Contact Information</strong>			</p>
+                        <p style="padding: 0px 15px 15px 0px; margin-top:20px; font-size:20px;"><strong>Contact Information</strong></p>
                         	<div class="formsections">
                             	<div class="clearfix">
                                     <div class="formrow1">
@@ -118,7 +126,9 @@
                                     </p>
                                 </div>
                             </div>
-                            <p>Card Type<br>
+                            
+                            <div class="experationdate">
+                            <p>Experation Date<br>
                             	<div class="months">
                                 	<select name="month" id="month" onchange="" size="1">
                                         <option value="01">January</option>
@@ -155,6 +165,7 @@
                                     </select>
                                   </div>
                                 </p>
+                             </div>
                             
                             <a href="ConfirmationPageOrder.html" class="button" type="button">Submit</a>
                               
