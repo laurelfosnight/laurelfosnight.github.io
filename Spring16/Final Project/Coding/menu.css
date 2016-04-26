@@ -329,6 +329,7 @@ p {
 	font-size:18px;
 	width:400px;
 	margin-top:0px;
+	padding-right:30px;
 }
 a:hover {
 	color: #91a63e;
@@ -489,5 +490,8 @@ button.placeanorder:hover{
 button.menu-button:hover {
 	background:#12301f;
 	color:white;
+}
+img {
+	padding-bottom:20px;
 }
 
