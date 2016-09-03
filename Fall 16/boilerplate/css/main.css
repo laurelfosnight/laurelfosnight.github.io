@@ -186,20 +186,35 @@ textarea {
    ========================================================================== */
 
 .header {
-	background-image: url(../Images/aboutusheader.jpg);
 	background: #222126;
+}
+.backgroundimage {
+	background-size:cover;
 }
 .adobelogo {
 	margin-left: 238px;
 	display:inline;
 }
 .navigationbar{
-	margin-right:188px;
+	margin-right: 8em;
 	font-family: 'Open Sans', sans-serif;
 	font-size:17px;
 }
-a{
-	margin-top:40px;
+.navigationlinks {
+	float:right;
+	margin-top: 4em;
+    margin-right: 6em;
+}
+a.navlinks {
+	color:white;
+	text-decoration:none;
+}
+a:hover {
+	color:rgba(112,111,137,1.00);
+}
+.alternatelinks {
+	color: #83a8bc;
+	text-decoration:none;
 }
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -208,6 +223,21 @@ h1 {
 h2 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: white;
+}
+h3 {
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-style:normal;
+	font-size:1.5em;
+}
+.onlyprice {
+	font-size: 3em;
+    margin-top: 0px;
+}
+.floatpandh2 {
+	float:left;
+	width:12em;
+	margin-top: 1em;
 }
 p {
 	font-family:'Open Sans', sans-serif;
@@ -224,37 +254,47 @@ p {
 	margin:0 auto;
 }
 .container-heading {
-	float:right;
-	max-width:564px;
-	max-height:398px;
-	background-color:rgba(58,58,58,0.47);
-	padding:20px;
-	margin-top: 100px;
-	margin:0 auto;
+	float: right;
+    max-width: 750px;
+    min-height: 398px;
+    background-color: rgba(58,58,58,0.47);
+    padding: 20px;
+    padding-right: 300px;
+    padding-left: 40px;
+    margin-top: 3em;
 }
 .container-tools {
 	background-color: #222126;
-	min-height:586px;
-	max-width: 990px;
+	min-height: 56em;
 	padding-left:8em;
 	padding-right:8em;
 	padding-top:40px;
 	padding-bottom:40px;
 	margin:0 auto;
 }
+.offeredtools {
+	margin: 0 auto;
+	width:45em;
+	min-height:4em;
+}
 .container-packages {
 	background-color: #757576;
-	height:20em;
+	height:25em;
 	text-align:center;
-	padding-left:8em;
-	padding-right:8em;
 	margin:0 auto;
+}
+.offeredpackages {
+	margin:auto;
+	width:50em;
 }
 .container-signup {
 	background-color:#222126;
-	height:30em;
-	text-align:center;
-	min-width:990px;
+	min-height:40em;
+	margin:0 auto;
+	padding-top:3em;
+}
+.signupform {
+	width:45em;
 	margin:0 auto;
 }
 .row clearfix:after {
@@ -268,7 +308,7 @@ p {
 	float:right;
 	max-width:231px;
 	max-height:312px;
-	padding-right:1em;
+	margin-right:1.5em;
 	margin-top:2em;
 }
 .section-column2 {
@@ -284,4 +324,80 @@ p {
 	padding-left:10px;
 	padding-right:10px;
 	padding-bottom:5px;
+}
+input[type=text] {
+	line-height: inherit;
+    margin-top: 1em;
+	width: 300px;
+    border-radius: 3px;
+}
+input[type=email] {
+	line-height: inherit;
+    margin-top: 1em;
+    border-radius: 3px;
+}
+input[type=password] {
+	line-height: inherit;
+    margin-top: 1em;
+    border-radius: 3px;
+}
+select {
+	line-height: inherit;
+	height:30px;
+    border-radius: 2px;
+	width:655px;
+}
+.countries {
+	margin-top:1em;
+	margin-bottom:1em;
+	size:45;
+}
+.termsandservices {
+	text-align: center;
+	margin-top: 0px;
+    margin-left: -60px;
+}
+button {
+	background-color: #83a8bc;
+	border:none;
+}
+.bttnrow {
+	width: 45em;
+    margin: 0 auto;
+}
+.buynow {
+	float:left;
+	margin-left:2.8em;
+}
+.buynowheading {
+	margin-left:0px;
+}
+.buynowbttn {
+	margin-bottom:.5em;
+	font-family:'Open Sans', sans-serif;
+	color: white;
+	font-size:1em;
+	height:2em;
+	width:8em;
+}
+.signup {
+	margin-top:.5em;
+	margin:0 auto;
+}
+.signupbttn {
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	font-size:1em;
+	height:2em;
+	width: 41em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+.container-footer {
+	background-color: #757576;
+	height:10em;
+	padding-top:2em;
+}
+footer {
+	margin-left:15em;
 }
