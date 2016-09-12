@@ -1,0 +1,248 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* ==========================================================================
+   My Styles
+   ========================================================================== */
+.container {
+	margin: 0 auto;
+	background-image:url(Assets/fall-leaves-background.png);
+	height:32em;
+	width:32em;
+}
+h1 {
+	margin:0px;
+}
+h2 {
+	margin:0px;
+}
+h3 {
+	margin:0px;
+}
+h1,h2,h3,h4 {
+	font-family: 'Poppins', sans-serif;
+	font-size:2.1em;
+	margin:0 auto;
+	text-align:center;
+}
+.falling:hover {
+	width: 512px;
+    height: 512px;
+	transform: translate(0px, 190px);
+	opacity:100;
+	color:rgba(58,130,0,1.00);
+	font-size:200em;
+	transition-timing-function:ease-out;
+}
+.falling {
+	margin:0 auto;
+	transition: width 2s, height 2s, transform 2s, opacity 3s, color 4s;
+	color:white;
+	opacity:0;
+	width:32em;
+	height:32em;
+}
+.falling h1 {
+	transition:font-size 2s ease-out;
+	font-size:.01em;
+}
+.falling h2 {
+	transition:font-size 2s ease-out;
+	font-size:.01em;
+	transition-delay:2s;
+}
+.falling h3 {
+	transition:font-size 2s ease-out;
+	font-size:.01em;
+	transition-delay:4s;
+	margin-left:3.2em;
+	float:left;
+}
+.falling h4 {
+	float:left;
+	padding-left:.3em;
+	color:rgba(66,50,0,1.00);
+	transition: font-size 2s ease-out;
+	font-size:.015em;
+	transition-delay:6s;
+}

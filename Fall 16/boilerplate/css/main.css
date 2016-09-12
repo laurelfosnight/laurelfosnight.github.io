@@ -296,6 +296,7 @@ p {
 .signupform {
 	width:45em;
 	margin:0 auto;
+	padding-left:40px;
 }
 .row clearfix:after {
 	clear:both;
@@ -354,8 +355,7 @@ select {
 }
 .termsandservices {
 	text-align: center;
-	margin-top: 0px;
-    margin-left: -60px;
+	margin: 0 auto;
 }
 button {
 	background-color: #83a8bc;
