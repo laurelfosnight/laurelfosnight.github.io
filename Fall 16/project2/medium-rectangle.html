@@ -12,7 +12,7 @@
              * Banner container, do not change
              */
             #medium-rectangle {
-                background: #fff;
+                background-image:url(Assets/starbucks-anniversary-blend-45-hero.jpg);
                 border: 1px solid #ccc;
                 display: block;
                 height: 250px;
@@ -24,55 +24,219 @@
             }
 
             /*
-             * Ryan's sample banner ad styles
+             *sample banner ad styles
              */
-            .ball {
-                background: #0CF;
-                border-radius: 50%;
-                height: 50px;
-                width: 50px;
-                position: absolute;
-                animation-name: move, color;
-                animation-duration: 2s, 1s;
-                animation-iteration-count:infinite;
+			 
+			 p {
+				 color:white;
+				 font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+				 font-size:1.85em;
+				 text-shadow: 2px 2px 5px #636363;
+			 }
+			 a {
+				 text-decoration: none;
+			 }
+            .mermaid {
+				overflow:hidden;
+                animation-name: scale;
+                animation-duration: 12s;
+                animation-iteration-count:1;
+				animation-fill-mode: both;
             }
-            @keyframes move {
-                0% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
-                }
-                40% {
-                    top: calc(100% - 25px);
-                    left: calc(100% - 25px);
-                }
-                50% {
-                    top: calc(0% - 25px);
-                    left: calc(100% - 25px);
-                }
-                90% {
-                    top: calc(100% - 25px);
-                    left: calc(0% - 25px);
-                }
-                100% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
-                }
+			.mermaidsvg {
+				transform:translate(110px,20px);
+			}
+			
+			.text1 {
+				overflow:hidden;
+				position:absolute;
+				top: 0;
+				left: 0;
+				animation-name:slideright;
+				animation-duration:10s;
+				animation-delay:2s;
+				animation-fill-mode:both;
+				z-index:1;
+			}
+			
+			.mermaidrotate {
+				overflow:hidden;
+				position:absolute;
+                top: 0;
+				left: 0;
+				transform:translate(135px,20px);
+				
             }
-            @keyframes color {
-                0% {
-                    background:#0CF;
-                }
-                100% {
-                    background:#990;
-                }
+			
+			.mermaidsvgrotate {
+				position:relative;
+				animation-name:rotate, scaleup, slide;
+                animation-duration: 16s;
+                animation-iteration-count:1;
+				animation-delay:3s;
+				animation-fill-mode: both;
+				transform:translate(110px,20px);
+			}
+			.tail {
+				overflow:hidden;
+				position:absolute;
+				transform-origin:100% 100%;
+				top: 0;
+				left: 0;
+				width: 300px;
+				height:280px;
+				z-index: 2;
+			}
+			
+			.tailsvg {
+				position:relative;
+                animation-name: swipe;
+                animation-duration: 16s;
+				padding-top:200px;
+                animation-iteration-count:1;
+				animation-delay:4s;
+				animation-fill-mode: both;
             }
+			.text2 {
+				overflow:hidden;
+				position:absolute;
+				top:0;
+				right:0;
+				animation-name:slideleft;
+				animation-duration:6s;
+				animation-iteration-count:1;
+				animation-delay:5s;
+				animation-fill-mode:both;
+			}
+			
+			
+			
+            @keyframes scale {
+            	0% {
+					transform:scale(5,5);
+					opacity:1;
+				}
+				25% {
+					transform:scale(1,1);
+					opacity:1;
+				}
+				50% {
+					transform:none;
+					opacity:0;
+				}
+				100% {
+					transform:none;
+					opacity:0;
+				}
+            }
+			
+			@keyframes rotate {
+				0% {
+					transform:none;
+					opacity:0;
+				}
+				10%{
+					transform:none;
+					opacity:1;
+				}
+				50% {
+					transform:rotate(20deg);
+					opacity:1;
+				}
+				100% {
+					transform:none;
+				}
+				
+			}
+			
+			@keyframes swipe {
+				0% {
+					transform:none;
+					opacity:0;
+				}
+				10% {
+					transform:none;
+					opacity:0;
+				}
+				20% {
+					opacity:1;
+				}
+				40% {
+					transform:rotate(90deg);
+				}
+				100% {
+					transform:none;
+				}
+			}
+			
+			@keyframes slideright {
+				0% {
+					transform:translate(-250px,0px);
+					opacity:0;
+				}
+				50% {
+					transform:translate(30px,0px);
+					opacity:1;
+				}
+				100% {
+					transform:translate(200px, 0px);
+					opacity:0;
+			}
+			
+			@keyframes slideleft {
+				0% {
+					transform:translate(200px,0px);
+					opacity:0;
+				}
+				50% {
+					transform:translate(30px,0px);
+					opacity:.5;
+				}
+				100% {
+					transform:none;
+					opacity:1;
+				}
+			}
+			
+			
+			
         </style>
     </head>
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
-            <div class="ball"></div>
+            	<!--first-->
+            	<div class="mermaid">
+                	<img src="Assets/Mermaid.svg" alt="mermaid" class="mermaidsvg">
+                </div>
+            	<!--first end-->
+                
+                <!--second-->
+                <div class="text1">
+                	<p>The Anniversary<br> Blend is Back.</p>
+                </div>
+                <!--second end-->
+                
+                <!--third-->
+                <div class="mermaidrotate">
+                	<img src="Assets/Mermaid2.svg" alt="mermaidrotate" class="mermaidsvgrotate"> 
+                </div>
+                <!--third end-->
+                
+                <!--fourth-->
+                <div class="tail">
+                	<img src="Assets/tail.svg" alt="tail" class="tailsvg">
+                </div>
+                <!--fourth end-->
+                
+                <!--fifth-->
+                <div class="text2">
+                	<p>Enjoy a Cup<br>in Stores<br>or at Home.</p>
+                </div>
+                <!--end fifth-->
+                
+            
             <!--markup for banner goes above-->
-        </div>
+        </a>
     </body>
 </html>
