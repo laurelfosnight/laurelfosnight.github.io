@@ -104,11 +104,24 @@
 				top:0;
 				left:0;
 				animation-name:slideleft;
-				animation-duration: 5s;
-				animation-delay:8s;
+				animation-duration: 9s;
+				animation-delay:13s;
 				animation-fill-mode:both;
+				z-index:1;
+				padding-left:20px;
 			}
-			
+			.button {
+				width:6em;
+				height:1.5em;
+				border-color:#498c81;
+				border-radius:5px;
+				background:#a1d0cd;
+				color:white;
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+				font-size:1em;
+				margin:0px;
+				transform:translate(0px,-15px);
+			}
 			
             @keyframes scale {
             	0% {
@@ -180,19 +193,17 @@
 				100% {
 					transform:translate(200px, 0px);
 					opacity:0;
+				}
 			}
 			
 			@keyframes slideleft {
 				0% {
-					transform:translate(300px, 0px);
 					opacity:0;
 				}
 				50% {
-					transform:translate(100px, 0px);
 					opacity:1;
 				}
 				100% {
-					transform:translate(200px,0px);
 					opacity:1;
 				}
 			}
@@ -229,7 +240,8 @@
                 
                 <!--fifth-->
                 <div class="text2">
-                	<p>Enjoy a Cup<br>in Stores<br>or at Home.</p>
+                	<p>Enjoy a Cup<br> in Stores<br> or at Home.</p>
+                    <input type="button" class="button" value="Buy Now" onclick=""/>
                 </div>
                 <!--fifth end-->
                 
