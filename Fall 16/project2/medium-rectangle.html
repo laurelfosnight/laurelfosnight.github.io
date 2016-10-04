@@ -97,18 +97,17 @@
 				animation-delay:4s;
 				animation-fill-mode: both;
             }
+			
 			.text2 {
 				overflow:hidden;
-				display:none;
+				position:absolute;
 				top:0;
-				right:0;
+				left:0;
 				animation-name:slideleft;
-				animation-duration:6s;
-				animation-iteration-count:1;
-				animation-delay:0;
+				animation-duration: 5s;
+				animation-delay:8s;
 				animation-fill-mode:both;
 			}
-			
 			
 			
             @keyframes scale {
@@ -184,21 +183,19 @@
 			}
 			
 			@keyframes slideleft {
-				
-				
-				
 				0% {
-					transform:translate(200px,0px);
+					transform:translate(300px, 0px);
 					opacity:0;
-					display: inherit;
 				}
-				100%
-				 {
-					transform:none;
+				50% {
+					transform:translate(100px, 0px);
+					opacity:1;
+				}
+				100% {
+					transform:translate(200px,0px);
 					opacity:1;
 				}
 			}
-			
 			
 			
         </style>
@@ -234,7 +231,8 @@
                 <div class="text2">
                 	<p>Enjoy a Cup<br>in Stores<br>or at Home.</p>
                 </div>
-                <!--end fifth-->
+                <!--fifth end-->
+                
                 
             
             <!--markup for banner goes above-->
