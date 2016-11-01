@@ -946,23 +946,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.enjoybylink, p {
+.enjoytext, p {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
 	font-size:.85em;
 	margin-top:.7em;
 }
 @media (min-width: 375px) {
-	.enjoybylink, p {
+	.enjoytext, p {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
-	font-size:.85em;
+	font-size:.7em;
 	margin-top:.7em;
 	padding-left:.4em;
 	}
 }
 @media (min-width: 768px) {
-	.enjoybylink, p {
+	.enjoytext, p {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
 	font-size:.85em;
@@ -971,19 +971,19 @@ textarea {
 	}
 }
 @media (min-width: 960px) {
-	.enjoybylink, p {
+	.enjoytext, p {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
-	font-size:.85em;
+	font-size:1em;
 	margin-top:.7em;
-	padding-left:2.5em;
+	padding-left:4em;
 	}
 }
-@media (min-width: 1280px) {
-	.enjoybylink, p {
+@media (min-width: 1260px) {
+	.enjoytext, p {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
-	font-size:.85em;
+	font-size:1.25em;
 	margin-top:.7em;
 	padding-left:2.5em;
 	}
@@ -1011,7 +1011,7 @@ textarea {
 	text-decoration:underline;
 	color:#ec8c42;
 	font-family: 'Libre Franklin', sans-serif;
-	font-size:.5em;
+	font-size:.9em;
 	padding-left:0;
 }
 }
@@ -1020,16 +1020,15 @@ textarea {
 	text-decoration:underline;
 	color:#ec8c42;
 	font-family: 'Libre Franklin', sans-serif;
-	font-size:.5em;
-	padding-left:0;
+	font-size:.9em;
 }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1260px) {
 	.enjoybylink, a {
 	text-decoration:underline;
 	color:#ec8c42;
 	font-family: 'Libre Franklin', sans-serif;
-	font-size:.5em;
+	font-size:1em;
 	padding-left:0;
 }
 }
@@ -1039,15 +1038,61 @@ textarea {
 h1 {
 	font-family: 'Merriweather', serif;
 	color:white;
-	font-size:1.4em;
 	font-weight:300;
+	font-size:1.9em;
 }
+@media (min-width: 375px) {
+	.h1 {
+		font-size:100%;
+}
+}
+@media (min-width: 768px) {
+	.h1 {
+		font-size:120%;
+}
+}
+
 h2 {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
-	font-size:1.2em;
 	font-weight:400;
 }
+@media (min-width:375px) {
+	.h2 {
+		font-family: 'Libre Franklin', sans-serif;
+		color:white;
+		font-weight:400;
+		font-size:1.5em;
+}
+}
+@media (min-width:768px) {
+	.h2 {
+		font-family: 'Libre Franklin', sans-serif;
+		color:white;
+		font-weight:400;
+		font-size:5em;
+}
+}
+
+
+
+
+@media (min-width:768px) {
+.navcontainer {
+	padding-right:2em;
+}
+}
+@media (min-width:960px) {
+.navcontainer {
+	padding-right:3em;
+}
+}
+@media (min-width:1260px) {
+.navcontainer {
+	padding-right:3.5em;
+}
+}
+
 .navbar {
 	text-decoration:none;
 	float:right;
@@ -1061,7 +1106,7 @@ h2 {
  .navbar {
     font-size:.4em;
     padding-left:1em;
-    padding-top:3em;
+    padding-top:4em;
 	padding-right:.3em;
   } 
 }
@@ -1069,7 +1114,7 @@ h2 {
  .navbar {
     font-size:.9em;
     padding-left:1em;
-    padding-top:5.4em; 
+    padding-top:3em; 
 	padding-right:1em;
   } 
 }
@@ -1081,11 +1126,11 @@ h2 {
 	padding-right:1em;
   } 
 }
-@media (min-width: 1280px) {
+@media (min-width: 1260px) {
  .navbar {
     font-size:1.2em;
     padding-left:1em;
-    padding-top:7em;
+    padding-top:5em;
 	padding-right:2em; 
   } 
 }
@@ -1111,42 +1156,90 @@ h2 {
 }
 @media (min-width: 768px) {
  .logo {
-    padding-top:1em;
-	max-width:100%;
+	max-width:90%;
 	height:auto;
-	margin-top:1em;
 	padding-left:2em;
   } 
 }
 @media (min-width: 960px) {
  .logo {
-    padding-top:1em;
-	max-width:100%;
+	max-width:150%;
 	height:auto;
-	margin-top:2em;
-	padding-left:2em;
+	margin-top:1.5em;
+	padding-left:4em;
   } 
 }
-@media (min-width: 1280px) {
+@media (min-width: 1260px) {
  .logo {
-    padding-top:3em;
 	max-width:100%;
 	height:auto;
 	margin-top:2em;
-	padding-left:2em;
+	padding-left:3em;
   } 
 }
+
+
 .row1 {
 	margin:0 auto;
 	height:3.5em;
 }
-.row2 {
-	min-height:21em;
-	background-image: url(../assets/nav.png);
-	background-size: contain;
-	background-repeat:no-repeat;
-	z-index:2;
+@media (min-width: 375px) {
+ .row1 {
+    padding-top:.3em;
+	max-width:130%;
+	height:auto;
+	margin-top:.5em;
+	padding-left:.5em;
+  } 
 }
+@media (min-width: 768px) {
+ .row1 {
+    height:3.5em;
+  } 
+}
+@media (min-width: 960px) {
+ .row1 {
+    height:4.5em;
+
+  } 
+}
+@media (min-width: 1260px) {
+ .row1 {
+	 height:5.5em;
+  } 
+}
+
+
+
+.row2 {
+	background-color: #0b111c;
+}
+@media (min-width: 375px) {
+ .row2 {
+    height:4em;
+  } 
+}
+@media (min-width: 768px) {
+ .row2 {
+    height:6em;
+  } 
+}
+@media (min-width: 960px) {
+ .row2 {
+    height:9em;
+
+  } 
+}
+@media (min-width: 1260px) {
+ .row2 {
+	 height:10.1em;
+  } 
+}
+
+
+
+
+
 .row3 {
 	background-color:#18344e;
 	background-image:url(../assets/thankyoubackground.png);
@@ -1162,10 +1255,69 @@ h2 {
 	text-align:center;
 	padding-top:.5em;
 }
+@media (min-width: 375px) {
+ .footer {
+    height:3em;
+  } 
+}
+@media (min-width: 768px) {
+ .footer {
+    height:4em;
+  } 
+}
+@media (min-width: 960px) {
+ .footer {
+    height:4.5em;
+
+  } 
+}
+@media (min-width: 1260px) {
+ .footer {
+	 height:5.5em;
+  } 
+}
+
+
+
 .socialmedia {
 	margin:0 auto;
-	min-height:1.5em;
-	max-height:3em;
+	max-width:100%;
+	height:auto;
+}
+@media (min-width: 375px) {
+ .socialmedia {
+    margin:0 auto;
+	max-width:10%;
+	height:auto;
+	padding-right:.5em;
+  } 
+}
+@media (min-width: 768px) {
+ .socialmedia {
+    margin:0 auto;
+	max-width:7%;
+	height:auto;
+	padding-right:1em;
+	padding-top:.5em;
+  } 
+}
+@media (min-width: 960px) {
+ .socialmedia {
+    margin:0 auto;
+	max-width:7%;
+	height:auto;
+	padding-right:1em;
+	padding-top:.5em;
+  } 
+}
+@media (min-width: 1260px) {
+ .socialmedia {
+	margin:0 auto;
+	max-width:6%;
+	height:auto;
+	padding-right:1.2em;
+	padding-top:.5em;
+  } 
 }
 
 
