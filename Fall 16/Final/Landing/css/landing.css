@@ -1329,22 +1329,22 @@ h2 {
 }
 @media (min-width:375px) {
 	.gifttofriend {
-		font-size:.7em;
+		font-size:70%;
 	}
 }
 @media (min-width:768px) {
 	.gifttofriend {
-		font-size:1em;
+		font-size:110%;
+	}
+}
+@media (min-width:992px) {
+	.gifttofriend {
+		font-size:150%;
 	}
 }
 @media (min-width:1024px) {
 	.gifttofriend {
-		font-size:1.1em;
-	}
-}
-@media (min-width:1260px) {
-	.gifttofriend {
-		font-size:1.2em;
+		font-size:150%;
 	}
 }
 
