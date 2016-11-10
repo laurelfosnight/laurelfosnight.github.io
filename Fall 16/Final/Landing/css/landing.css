@@ -1177,10 +1177,12 @@ textarea {
 		font-family: 'Libre Franklin', sans-serif;
 		font-weight: 500;
 		background-color:white;
-		font-size:.6em;
+		font-size:65%;
 		border:1px solid black;
 		border-radius: 3px;
 		color:black;
+		height:100%;
+		width:inherit;
 	}
 }
 @media (min-width:768px) {
@@ -1191,12 +1193,27 @@ textarea {
 		font-family: 'Libre Franklin', sans-serif;
 		font-weight: 500;
 		background-color:white;
-		font-size:1em;
+		font-size:90%;
 		border:1px solid black;
 		border-radius: 3px;
 		color:black;
 	}
 }
+@media (min-width:992px) {
+	.bttn {
+		text-align:center;
+		padding-left:1em;
+		padding-right:1em;
+		font-family: 'Libre Franklin', sans-serif;
+		font-weight: 500;
+		background-color:white;
+		font-size:120%;
+		border:1px solid black;
+		border-radius: 3px;
+		color:black;
+	}
+}
+
 @media (min-width:375px) {
 	.buttonpadding {
 		padding-top:.5em;
