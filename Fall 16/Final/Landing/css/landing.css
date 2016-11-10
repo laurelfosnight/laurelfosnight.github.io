@@ -1276,11 +1276,6 @@ h2 {
 	text-align:center;
 	line-height: 1.7em;
 }
-@media (min-width:375px) {
-	.bodycopy {
-		font-size:1.7em;
-	}
-}
 @media (min-width:768px) {
 	.bodycopy {
 		font-size:1em;
