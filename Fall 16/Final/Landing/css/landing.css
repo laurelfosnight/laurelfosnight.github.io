@@ -1272,21 +1272,20 @@ h2 {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
 	font-weight:400;
-	font-size:.7em;
+	font-size:100%;
 	text-align:center;
 	line-height: 1.7em;
 }
 @media (min-width:768px) {
 	.bodycopy {
-		font-size:1em;
-		width:35em;
+		font-size:120%;
 		margin:0 auto;
 		padding-bottom:.5em;
 	}
 }
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	.bodycopy {
-		font-size:1.2em;
+		font-size:170%;
 	}
 }
 @media (min-width:1260px) {
@@ -1306,6 +1305,14 @@ h2 {
 @media (min-width:768px) {
 	.bodycontainer {
 		width:90%;
+		margin:0 auto;
+		padding-top:7em;
+		padding-bottom:7em;
+	}
+}
+@media (min-width:992px) {
+	.bodycontainer {
+		width:80%;
 		margin:0 auto;
 		padding-top:7em;
 		padding-bottom:7em;
