@@ -1,0 +1,5 @@
+/**
+ * PowerReviews, Copyright 2016
+ * HEAD | 783b8f5
+ */
+!function(e){function t(i){if(n[i])return n[i].exports;var r=n[i]={exports:{},id:i,loaded:!1};return e[i].call(r.exports,r,r.exports,t),r.loaded=!0,r.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}({0:function(e,t,n){try{(function(){"use strict";var e=n(729),t=e.loadVersionFile;t("//ui.powerreviews.com/stable-4.0-version.json","4.0/ui.engine.js")}).call(this)}finally{}},729:function(e,t,n){try{(function(){"use strict";t.__esModule=!0;var n=function(e,t){var n=new XMLHttpRequest,i={v:""};window.POWERREVIEWS=window.POWERREVIEWS||{},window.POWERREVIEWS.display=window.POWERREVIEWS.display||{},window.POWERREVIEWS.display.render=function(e){window.POWERREVIEWS.display.renderQueue=e};var r=e;n.onreadystatechange=function(){if(4===n.readyState&&200===n.status){i=JSON.parse(n.responseText),window.POWERREVIEWS.display.build=i.v;var e="//ui.powerreviews.com/tag-builds/"+(i.v?i.v:"")+"/"+t,r=document.createElement("script");r.type="text/javascript",r.src=e,document.body.appendChild(r)}},n.open("GET",r,!0),n.send()};t["default"]={loadVersionFile:n},e.exports=t["default"]}).call(this)}finally{}}});
