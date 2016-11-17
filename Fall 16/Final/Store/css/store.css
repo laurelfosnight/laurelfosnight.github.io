@@ -1007,7 +1007,7 @@ textarea {
 	padding-bottom:2em;
 }
 .row2 {
-	width:100%;
+	width:10so
 	margin: 0 auto;
 	background-color:#0b111c;
 }
@@ -1118,7 +1118,6 @@ textarea {
 	background-color:white;
 	border:.2px solid black;
 	border-radius:2px;
-	margin-left:10%;
 	margin-top:22%;
 }
 .bttn2 {
@@ -1152,51 +1151,94 @@ textarea {
 	width:100px;
 	background-image: url(../assets/anniversary_mug_14_oz_us_ca_pdp.jpg);
 	background-size:contain;
-	margin-top:10%;
-	margin-left:10%;
 }
+@media (min-width:992px) {
+	#image {
+		height:120px;
+		width:120px;
+	}
+}
+
 #image2 {
 	height:100px;
 	width:100px;
 	background-image: url(../assets/handle_mug_siren_star_12_oz_us_ca_pdp.jpg);
 	background-size:contain;
-	margin-top:10%;
-	margin-left:10%;
 }
+@media (min-width:992px) {
+	#image2 {
+		height:120px;
+		width:120px;
+	}
+}
+
+
 #image3 {
 	height:100px;
 	width:100px;
 	background-image: url(../assets/anniversary_crown_mug_14_oz_us_ca_pdp-d.jpg);
 	background-size:cover;
-	margin-top:10%;
-	margin-left:10%
 }
+@media (min-width:992px) {
+	#image3 {
+		height:120px;
+		width:120px;
+	}
+}
+
+
 #image4 {
 	height:100px;
 	width:100px;
 	background-image: url(../assets/anniversary_dw_siren_mid_premium_us_ca_pdp-d.jpg);
 	background-size:contain;
-	margin-top:10%;
-	margin-left:10%;
 }
+@media (min-width:992px) {
+	#image4 {
+		height:120px;
+		width:120px;
+	}
+}
+
+
 #image5 {
 	height:100px;
 	width:100px;
 	background-image: url(../assets/anniversary_blend_us_ca_pdp-d.jpg);
 	background-size:cover;
-	margin-left:10%;
-	margin-top:10%;
 }
+@media (min-width:992px) {
+	#image5 {
+		height:120px;
+		width:120px;
+	}
+}
+
+
 #image6 {
 	height:100px;
 	width:100px;
 	background-image: url(../assets/verismo_anniversary_12_ct_6_cs_us_ca_pdp-d.jpg);
 	background-size:cover;
-	margin-top:10%;
-	margin-left:10%;
 }
-#text {
+@media (min-width:992px) {
+	#image6 {
+		height:120px;
+		width:120px;
+	}
+}
+.text {
 	width:50%;
+}
+@media (min-width:768px) {
+	.text {
+		width:60%;
+	}
+}
+@media (min-width:992px) {
+	.text {
+		width:70%;
+	}
 }
 .content {
 	float:left;
@@ -1208,11 +1250,45 @@ h3 {
 	margin-top:0px;
 	font-weight:300;
 	padding-left:10%;
-	padding-top:8%;
 	margin-bottom:3%;
+}
+@media (min-width:768px) {
+	h3 {
+		font-family: 'Merriweather', serif;
+		font-size:110%;
+		color:white;
+		margin-top:0px;
+		font-weight:300;
+		padding-left:10%;
+		margin-bottom:3%;
+	}
+}
+@media (min-width:992px) {
+	h3 {
+		font-family: 'Merriweather', serif;
+		font-size:140%;
+		color:white;
+		margin-top:0px;
+		font-weight:300;
+		padding-left:10%;
+		margin-bottom:3%;
+	}
+}
+@media (min-width:1024px) {
+	h3 {
+		font-family: 'Merriweather', serif;
+		font-size:160%;
+		color:white;
+		margin-top:0px;
+		font-weight:300;
+		padding-left:10%;
+		margin-bottom:3%;
+	}
 }
 #store {
 	background-color: #0b111c;
+	padding-top:5%;
+	padding-bottom:5%;
 }
 .optionbttn {
 	padding:0px;
@@ -1274,11 +1350,30 @@ h3 {
 	padding-top:5%;
 	padding-bottom:5%;
 }
-.container {
+.container.product-container {
 	background-color:#345a6c;
 	width:100%;
-	height:auto;
+	min-height:12em;
+	padding-top:5%;
 	padding-bottom:5%;
+}
+@media (min-width:768px) {
+	.container.product-container {
+		min-height:16.8em;
+}
+}
+@media (min-width:992px) {
+	.container.product-container {
+		min-height:19.3em;
+	}
+}
+@media (min-width:1024px) {
+	.container.product-container {
+		min-height:23.3em;
+}
+}
+.col-xs-12.rowcontainer {
+	margin-bottom:5%;
 }
 .row4 {
 	background-color: #18344e;
@@ -1331,26 +1426,26 @@ h2 {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
 	font-weight:400;
-	font-size:5%;
+	font-size:40%;
 	text-align:left;
 	padding-left:10%;
 	margin-top:0px;
 }
 @media (min-width:768px) {
 	.bodycopy {
-		font-size:10%;
+		font-size:80%;
 		margin:0 auto;
 		padding-bottom:.5em;
 	}
 }
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	.bodycopy {
-		font-size:1.2em;
+		font-size:100%;
 	}
 }
-@media (min-width:1260px) {
+@media (min-width:1024px) {
 	.bodycopy {
-		font-size:1.3em;
+		font-size:120%;
 	}
 }
 .bodycopy2 {
@@ -1386,6 +1481,21 @@ h2 {
 	text-align:left;
 	padding-left:10%;
 }
+@media (min-width:768px) {
+	.availability {
+		font-size:70%;
+	}
+}
+@media (min-width:992px) {
+	.availability {
+		font-size:90%;
+	}
+}
+@media (min-width:1024px) {
+	.availability {
+		font-size:110%;
+	}
+}
 .price {
 	font-family: 'Merriweather', serif;
 	color:white;
@@ -1395,7 +1505,21 @@ h2 {
 	padding-left:10%;
 	margin-top:0px;
 }
-
+@media (min-width:768px) {
+	.price {
+		font-size:110%;
+	}
+}
+@media (min-width:992px) {
+	.price {
+		font-size:130%;
+	}
+}
+@media (min-width:1024px) {
+	.price {
+		font-size:140%;
+	}
+}
 .bodycontainer {
 	width:90%;
 	margin:0 auto;
@@ -1454,30 +1578,24 @@ h2 {
 	padding-bottom:1.5em;
 }
 .socialmedia {
-	padding-right:1em;
+	padding-right:5%;
+	padding-left:2%;
 }
-@media (min-width:375px) {
-	.socialmedia {
-		height:1.5em;
-		width:auto;
+
+.socialmedia {
+	width:12%;
 	}
-}
 @media (min-width:768px) {
 	.socialmedia {
-		height:2em;
-		width:auto;
+		width:12%;
 	}
 }
 @media (min-width:1024px) {
 	.socialmedia {
-		height:2.3em;
-		width:auto;
 	}
 }
 @media (min-width:1260px) {
 	.socialmedia {
-		height:2.5em;
-		width:auto;
 	}
 }
 .legal {
