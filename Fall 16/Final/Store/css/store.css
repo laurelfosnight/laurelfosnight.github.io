@@ -1106,6 +1106,24 @@ textarea {
 	width:113.438px;
 	float:left;
 }
+.bttncontainer {
+	text-align:center;
+}
+.proceedbttn {
+	font-family: 'Libre Franklin', sans-serif;
+	color:#231f20;
+	font-size:100%;
+	text-align:center;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:.5%;
+	padding-bottom:.5%;
+	background-color:white;
+	border:.2px solid black;
+	border-radius:2px;
+	margin-top:5%;
+	margin-bottom:5%;
+}
 .bttn {
 	font-family: 'Libre Franklin', sans-serif;
 	color:#231f20;
@@ -1286,6 +1304,9 @@ h3 {
 	}
 }
 #store {
+	background-image: url(../assets/thankyoubackground.png);
+	background-size:contain;
+	background-repeat:no-repeat;
 	background-color: #0b111c;
 	padding-top:5%;
 	padding-bottom:5%;
@@ -1533,12 +1554,6 @@ h2 {
 		padding-top:7em;
 		padding-bottom:7em;
 	}
-}
-
-#mainsection {
-	background-image: url(../assets/thankyoubackground.png);
-	background-size:contain;
-	background-repeat:no-repeat;
 }
 .giftlink {
 	padding-top:.2em;
