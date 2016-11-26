@@ -947,9 +947,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+p {
+	color:white;
+	margin-bottom:0px;
+	font-size:90%;
+	text-align:center;
+	padding-top:25px;
+}
+.li-spacing {
+	padding-top:15px;
+}
+.li-spacing2 {
+	padding-top:2%;
+}
+a:hover {
+	color: #26989b;
+	font-weight:500;
+}
 .nav-menu-btn {
    padding: 5px;
    border: none;
+   background-color:#0b111c;
+   float:right;
+   margin-right:10%;
 }
 .menu-icon {
    display: block;
@@ -960,25 +980,23 @@ textarea {
    width: 15px;
 }
 .bar {
-   background: #000;
-   height: 2px;
+   background: white;
+   height: 4px;
    left: 0;
+   border-radius:1px;
    position: absolute;
    -webkit-transition: all 100ms linear 0s;
    -moz-transition: all 100ms linear 0s;
    -o-transition: all 100ms linear 0s;
    transition: all 100ms linear 0s;
    top: 50%;
-   width: 15px;
+   width: 30px;
 }
 .top-bar {
    margin-top: -4px;
 }
 .bottom-bar {
-   margin-top: 3px;
-}
-.expanded {
-   background: #ccc;
+   margin-top: 8px;
 }
 .expanded .top-bar {
    margin-top: 0;
@@ -1004,8 +1022,8 @@ textarea {
 
 .nav-menu {
    overflow: hidden;
-   padding: 5px;
-   text-align: center;
+   padding-right:6%;
+   text-align: right;
 }
 .nav-menu ul {
    list-style: none;
@@ -1019,9 +1037,14 @@ textarea {
        height: auto;   
    }
 }
+.nav-options {
+	font-family:'Libre Franklin', sans-serif;
+	color:white;
+	text-decoration:none;
+}
 #navbar {
 	padding-top: 2em;
-	padding-bottom:2em;
+	padding-bottom:5%;
 }
 .row2 {
 	width:100%;
@@ -1093,106 +1116,130 @@ textarea {
 	background-image: url(../assets/Anniversary_Blend_2016.JPG);
 	background-size:cover;
 	background-repeat: no-repeat;
+	padding:0px;
+	width:100%;
 }
 .nowservingbackground {
-	padding-top:30%;
-	padding-bottom:40%;
+	width:100%;
+	height:20em;
 }
-
-@media (min-width:375px) {
-	h1 {
-		font-family: 'Merriweather', serif;
-		color:white;
-		font-size:1.2em;
-		text-align:center;
-		padding-top:0px;
-		padding-bottom:0px;
-		font-weight:400;
-		letter-spacing:3px;
-		text-shadow:3px 3px 13px black;
+@media (min-width:768px) {
+	.nowservingbackground {
+	width:100%;
+	height:30em;
 	}
+}
+.headingcontainer {
+	background-color: rgba(0,107,114,0.40);
+	height:50%;
+	float:left;
+	width:70%;
+	padding-left:5%;
+	margin-top:35%;
+	box-shadow: 2px 1px 10px rgba(0,0,0,1.00);
+}
+h1 {
+	font-family: 'Merriweather', serif;
+	color: white;
+	font-size:110%;
+	text-align:left;
+	margin-top:2%;
+	margin-bottom:0px;
+	font-weight:400;
+	letter-spacing:3px;
+	text-shadow:3px 3px 5px black;
 }
 @media (min-width:768px) {
 	h1 {
-		font-family: 'Merriweather', serif;
-		color:white;
 		font-size:2em;
-		text-align:center;
-		padding-top:0px;
-		padding-bottom:0px;
-		font-weight:400;
-		letter-spacing:3px;
-		text-shadow:3px 3px 13px black;
 	}
 }
 
-@media (min-width:375px) {
-	.nowserving {
-		font-family: 'Libre Franklin', sans-serif;
-		color:white;
-		font-size: 1em;
-		text-align:center;
-		font-weight:400;
-		margin-top:0px;
-		margin-bottom:0px;
-		text-shadow:0px 0px 8px black;
-	}
+.nowserving {
+	font-family: 'Libre Franklin', sans-serif;
+	color: #ccc8bc;
+	font-size: 110%;
+	text-align:left;
+	font-weight:500;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-shadow:2px 2px 3px black;
+	padding-top:7%;
 }
+
 @media (min-width:768px) {
 	.nowserving {
-		font-family: 'Libre Franklin', sans-serif;
-		color:white;
 		font-size: 2em;
-		text-align:center;
-		font-weight:400;
-		margin-top:0px;
-		margin-bottom:0px;
-		text-shadow:0px 0px 8px black;
 	}
 }
 @media (min-width:1024px) {
 	.nowserving {
-		font-family: 'Libre Franklin', sans-serif;
-		color:white;
 		font-size: 2.1em;
-		text-align:center;
-		font-weight:400;
-		margin-top:0px;
-		margin-bottom:0px;
-		text-shadow:0px 0px 8px black;
 	}
 }
 @media (min-width:768px) {
 	.nowserving {
-		font-family: 'Libre Franklin', sans-serif;
-		color:white;
 		font-size: 2em;
-		text-align:center;
-		font-weight:400;
-		margin-top:0px;
-		margin-bottom:0px;
-		text-shadow:0px 0px 8px black;
 	}
 }
 
-#buttonbreak {
-	background-color: #345a6c;
+.bttn1 {
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	background-color:white;
+	font-size:65%;
+	border:1px solid black;
+	border-radius: 3px;
+	color:black;
+	height:100%;
+	width:inherit;
+	box-shadow:1px 1px 6px black;
 }
-@media (min-width:375px) {
-	.bttn {
+@media (min-width:768px) {
+	.bttn1 {
 		text-align:center;
 		padding-left:1em;
 		padding-right:1em;
 		font-family: 'Libre Franklin', sans-serif;
 		font-weight: 500;
 		background-color:white;
-		font-size:65%;
+		font-size:90%;
 		border:1px solid black;
 		border-radius: 3px;
 		color:black;
-		height:100%;
-		width:inherit;
 	}
+}
+@media (min-width:992px) {
+	.bttn1 {
+		text-align:center;
+		padding-left:1em;
+		padding-right:1em;
+		font-family: 'Libre Franklin', sans-serif;
+		font-weight: 500;
+		background-color:white;
+		font-size:120%;
+		border:1px solid black;
+		border-radius: 3px;
+		color:black;
+	}
+}
+.bttn {
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	background-color:white;
+	font-size:65%;
+	border:1px solid black;
+	border-radius: 3px;
+	color:black;
+	height:100%;
+	width:inherit;
+	box-shadow:1px 1px 6px black;
 }
 @media (min-width:768px) {
 	.bttn {
@@ -1225,13 +1272,25 @@ textarea {
 
 @media (min-width:375px) {
 	.buttonpadding {
-		padding-top:.5em;
-		padding-bottom:.5em;
-		text-align:center;
+		margin-top:4%;
+		margin-bottom:5%;
 	}
 }
 @media (min-width:768px) {
 	.buttonpadding {
+		padding-top:1em;
+		padding-bottom: 1em;
+	}
+}
+@media (min-width:375px) {
+	.buttonpadding2 {
+		margin-top:8%;
+		margin-bottom:3%;
+		text-align:center;
+	}
+}
+@media (min-width:768px) {
+	.buttonpadding2 {
 		padding-top:1em;
 		padding-bottom: 1em;
 		text-align:center;
@@ -1243,17 +1302,15 @@ textarea {
 	background-size:contain;
 	background-repeat:no-repeat;
 }
-@media (min-width:320px) {
-	h2 {
-		font-family: 'Merriweather', serif;
-		color:white;
-		font-size:170%;
-		text-align:center;
-		width:90%;
-		margin:0 auto;
-		font-weight:300;
-		letter-spacing:1.5px;
-	}
+h2 {
+	font-family: 'Merriweather', serif;
+	color:white;
+	font-size:130%;
+	text-align:center;
+	width:90%;
+	margin:0 auto;
+	font-weight:300;
+	letter-spacing:1.5px;
 }
 @media (min-width:768px) {
 	h2 {
@@ -1286,9 +1343,12 @@ textarea {
 	font-family: 'Libre Franklin', sans-serif;
 	color:white;
 	font-weight:400;
-	font-size:100%;
+	font-size:80%;
 	text-align:center;
 	line-height: 1.7em;
+	padding-top:3%;
+	width:82%;
+	margin:0 auto;
 }
 @media (min-width:768px) {
 	.bodycopy {
@@ -1308,13 +1368,12 @@ textarea {
 	}
 }
 
-@media (min-width:375px) {
-	.bodycontainer {
-		width:85%;
-		margin:0 auto;
-		padding-top:20%;
-		padding-bottom:20%;
-	}
+
+.bodycontainer {
+	width:95%;
+	margin:0 auto;
+	padding-top:10%;
+	padding-bottom:20%;
 }
 @media (min-width:768px) {
 	.bodycontainer {
@@ -1386,14 +1445,9 @@ textarea {
 }
 h2.collection {
 	font-family: 'Libre Franklin', sans-serif;
-	font-size:1.1em;
+	font-size:150%;
 	color:white;
 	font-weight:500;
-}
-@media (min-width:375px) {
-	h2.collection {
-		font-size:1.1em;
-	}
 }
 @media (min-width:768px) {
 	h2.collection {
