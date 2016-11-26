@@ -947,68 +947,77 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.row1 {
-	width:100%;
-	margin:0 auto;
-	background-color: #345a6c;
+.nav-menu-btn {
+   padding: 5px;
+   border: none;
 }
-#adbar {
-	padding-bottom:1em;
+.menu-icon {
+   display: block;
+   margin: 0 auto 5px;
+   height: 15px;
+   margin-bottom: 2px;
+   position: relative;
+   width: 15px;
 }
-.freeshipping {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:2em;
-	color:white;
-	line-height:.1em;
-	padding-left:.5em;
-	padding-top:.5em;
+.bar {
+   background: #000;
+   height: 2px;
+   left: 0;
+   position: absolute;
+   -webkit-transition: all 100ms linear 0s;
+   -moz-transition: all 100ms linear 0s;
+   -o-transition: all 100ms linear 0s;
+   transition: all 100ms linear 0s;
+   top: 50%;
+   width: 15px;
 }
-@media (min-width:375px) {
-	.freeshipping {
-		font-size:.7em;
-	}
+.top-bar {
+   margin-top: -4px;
 }
-@media (min-width:768px) {
-	.freeshipping {
-		font-size:.9em;
-	}
+.bottom-bar {
+   margin-top: 3px;
 }
-@media (min-width:1024px) {
-	.freeshipping {
-		font-size:1.1em;
-	}
+.expanded {
+   background: #ccc;
 }
-@media (min-width:1260px) {
-	.freeshipping {
-		font-size:1.1em;
-	}
+.expanded .top-bar {
+   margin-top: 0;
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
 }
-.enjoyby {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:1.5em;
-	color:#ec8c42;
-	padding-left:.6em;
-	padding-top:0em;
+.expanded .bottom-bar {
+   margin-top: 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
 }
-@media (min-width:375px) {
-	.enjoyby {
-		font-size:.3em;
-	}
+@media screen and (min-width: 768px) {
+   .menu-btn {
+       display: none;
+   }
 }
-@media (min-width:768px) {
-	.enjoyby {
-		font-size:.7em;
-	}
+
+.nav-menu {
+   overflow: hidden;
+   padding: 5px;
+   text-align: center;
 }
-@media (min-width:1024px) {
-	.enjoyby {
-		font-size:.9em;
-	}
+.nav-menu ul {
+   list-style: none;
+   padding-left: 0;
 }
-@media (min-width:1260px) {
-	.enjoyby {
-		font-size:.9em;
-	}
+@media screen and (max-width: 768px) {
+   .nav-menu {
+       height: 0;
+   }
+   .nav-menu.expanded {
+       height: auto;   
+   }
 }
 #navbar {
 	padding-top: 2em;
