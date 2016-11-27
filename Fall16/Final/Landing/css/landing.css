@@ -970,6 +970,7 @@ a:hover {
    background-color:#0b111c;
    float:right;
    margin-right:10%;
+   margin-top:-50px;
 }
 .menu-icon {
    display: block;
@@ -1015,11 +1016,15 @@ a:hover {
    transform: rotate(-45deg);
 }
 @media screen and (min-width: 768px) {
-   .menu-btn {
+   .nav-menu-btn {
        display: none;
    }
 }
-
+@media screen and (min-width: 768px) {
+   .nav-menu {
+       display: none;
+   }
+}
 .nav-menu {
    overflow: hidden;
    padding-right:6%;
@@ -1043,8 +1048,19 @@ a:hover {
 	text-decoration:none;
 }
 #navbar {
-	padding-top: 2em;
-	padding-bottom:5%;
+	padding:5%;
+}
+@media screen and (max-width: 768px) {
+   #navbar {
+	   padding:5%;
+	   padding-bottom:3%;
+   }
+}
+@media screen and (max-width: 992px) {
+   #navbar {
+	   padding:5%;
+	   padding-bottom:2%;
+   }
 }
 .row2 {
 	width:100%;
@@ -1084,22 +1100,23 @@ a:hover {
 	font-size:1.3em;
 	color:white;
 	text-decoration: none;
-	padding-top:5em;
 	padding-right:1.5em;
+	margin-top:-20px;
 }
 @media (min-width:375px) {
 	.navbar {
-		font-size:.5em;
+		display:none;
 	}
 }
 @media (min-width:768px) {
 	.navbar {
-		font-size:.8em;
+		display:block;
+		font-size:100%;
 	}
 }
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	.navbar {
-		font-size:1em;
+		font-size:120%;
 	}
 }
 @media (min-width:1260px) {
@@ -1137,6 +1154,20 @@ a:hover {
 	padding-left:5%;
 	margin-top:35%;
 	box-shadow: 2px 1px 10px rgba(0,0,0,1.00);
+}
+@media (min-width:768px) {
+	.headingcontainer {
+		margin-top:25%;
+		margin-bottom:5%;
+		height:55%;
+	}
+}
+@media (min-width:992px) {
+	.headingcontainer {
+		margin-top:25%;
+		margin-bottom:5%;
+		height:60%;
+	}
 }
 h1 {
 	font-family: 'Merriweather', serif;
@@ -1291,8 +1322,8 @@ h1 {
 }
 @media (min-width:768px) {
 	.buttonpadding2 {
-		padding-top:1em;
-		padding-bottom: 1em;
+		margin-top:5%;
+		margin-bottom:3%;
 		text-align:center;
 	}
 }
@@ -1379,16 +1410,16 @@ h2 {
 	.bodycontainer {
 		width:90%;
 		margin:0 auto;
-		padding-top:7em;
-		padding-bottom:7em;
+		padding-top:7%;
+		padding-bottom:7%;
 	}
 }
 @media (min-width:992px) {
 	.bodycontainer {
 		width:80%;
 		margin:0 auto;
-		padding-top:7em;
-		padding-bottom:7em;
+		padding-top:8%;
+		padding-bottom:5%;
 	}
 }
 .giftlink {
@@ -1438,6 +1469,14 @@ h2 {
 		padding-bottom:7em;
 	}
 }
+@media (min-width:992px) {
+	.bodycontainer2 {
+		width:75%;
+		margin:0 auto;
+		padding-top:7em;
+		padding-bottom:7em;
+	}
+}
 #collection {
 	background-image: url(../assets/LwAYgwxm-3691-3747.png);
 	background-size:cover;
@@ -1478,12 +1517,12 @@ h2.collection {
 }
 @media (min-width:768px) {
 	.shopnow {
-		font-size:1em;
+		font-size:110%;
 	}
 }
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	.shopnow {
-		font-size:1.1em;
+		font-size:150%;
 	}
 }
 @media (min-width:1260px) {
