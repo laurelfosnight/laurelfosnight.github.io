@@ -1304,6 +1304,21 @@ a:hover {
 }
 }
 
+/* Responsive iframe for all types of media use 'iframe-responsive' */
+/* Responsive youtube video embed 'video-responsive' class is wrapper for youtube iframe */
+.iframe-responsive {
+	height: 0;
+	padding-bottom: 75%;
+	position: relative;
+}
+/* set the iframe to the same width / height as it's fluid parent container */
+.iframe-responsive > iframe {
+	height: 100% !important;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100% !important;
+}
 
 .headingcontainer {
 	margin-top:3%;
