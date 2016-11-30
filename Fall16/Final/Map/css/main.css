@@ -1303,7 +1303,20 @@ a:hover {
 	margin-left:4em;
 }
 }
-
+.mainsection {
+	padding-bottom:5%;
+}
+@media (min-width:768px) {
+	.mainsection {
+		padding-left:10%;
+		padding-right:10%;
+}
+.maprow {
+	background-color: #0b111c;
+	background-image:url(../assets/thankyoubackground.png);
+	background-size:cover;
+	background-repeat:none;
+}
 /* Responsive iframe for all types of media use 'iframe-responsive' */
 /* Responsive youtube video embed 'video-responsive' class is wrapper for youtube iframe */
 .iframe-responsive {
