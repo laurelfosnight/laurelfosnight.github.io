@@ -134,6 +134,7 @@ textarea {
 .col-xs-12 {
   float: left;
   width: 100%;
+  padding:0px;
 }
 
 .pull-xs-0 {
@@ -947,68 +948,123 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.row1 {
-	width:100%;
-	margin:0 auto;
-	background-color: #345a6c;
+body {
+	background-color: #ccc8bc;
 }
-#adbar {
-	padding-bottom:1em;
-}
-.freeshipping {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:2em;
+p {
 	color:white;
-	line-height:.1em;
-	padding-left:.5em;
-	padding-top:.5em;
+	margin-bottom:0px;
+	font-size:65%;
+	text-align:center;
+	padding-top:25px;
 }
-@media (min-width:375px) {
-	.freeshipping {
-		font-size:.7em;
-	}
+.li-spacing {
+	padding-top:15px;
 }
-@media (min-width:768px) {
-	.freeshipping {
-		font-size:.9em;
-	}
+.li-spacing2 {
+	padding-top:2%;
 }
-@media (min-width:1024px) {
-	.freeshipping {
-		font-size:1.1em;
-	}
+a:hover {
+	color: #26989b;
+	font-weight:500;
 }
-@media (min-width:1260px) {
-	.freeshipping {
-		font-size:1.1em;
-	}
+.nav-menu-btn {
+   padding: 5px;
+   border: none;
+   background-color:#0b111c;
+   float:right;
+   margin-right:10%;
+   margin-top:-50px;
 }
-.enjoyby {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:1.5em;
-	color:#ec8c42;
-	padding-left:.6em;
-	padding-top:0em;
+.menu-icon {
+   display: block;
+   margin: 0 auto 5px;
+   height: 15px;
+   margin-bottom: 2px;
+   position: relative;
+   width: 15px;
 }
-@media (min-width:375px) {
-	.enjoyby {
-		font-size:.3em;
-	}
+.bar {
+   background: white;
+   height: 4px;
+   left: 0;
+   border-radius:1px;
+   position: absolute;
+   -webkit-transition: all 100ms linear 0s;
+   -moz-transition: all 100ms linear 0s;
+   -o-transition: all 100ms linear 0s;
+   transition: all 100ms linear 0s;
+   top: 50%;
+   width: 30px;
 }
-@media (min-width:768px) {
-	.enjoyby {
-		font-size:.7em;
-	}
+.top-bar {
+   margin-top: -4px;
 }
-@media (min-width:1024px) {
-	.enjoyby {
-		font-size:.9em;
-	}
+.bottom-bar {
+   margin-top: 8px;
 }
-@media (min-width:1260px) {
-	.enjoyby {
-		font-size:.9em;
-	}
+.expanded .top-bar {
+   margin-top: 0;
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.expanded .bottom-bar {
+   margin-top: 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+@media screen and (min-width: 768px) {
+   .nav-menu-btn {
+       display: none;
+   }
+}
+@media screen and (min-width: 768px) {
+   .nav-menu {
+       display: none;
+   }
+}
+.nav-menu {
+   overflow: hidden;
+   padding-right:6%;
+   text-align: right;
+}
+.nav-menu ul {
+   list-style: none;
+   padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+   .nav-menu {
+       height: 0;
+   }
+   .nav-menu.expanded {
+       height: auto;   
+   }
+}
+.nav-options {
+	font-family:'Libre Franklin', sans-serif;
+	color:white;
+	text-decoration:none;
+}
+#navbar {
+	padding:5%;
+}
+@media screen and (max-width: 768px) {
+   #navbar {
+	   padding:5%;
+	   padding-bottom:3%;
+   }
+}
+@media screen and (max-width: 992px) {
+   #navbar {
+	   padding:5%;
+	   padding-bottom:2%;
+   }
 }
 #navbar {
 	padding-top: 2em;
@@ -1052,22 +1108,23 @@ textarea {
 	font-size:1.3em;
 	color:white;
 	text-decoration: none;
-	padding-top:5em;
 	padding-right:1.5em;
+	margin-top:-20px;
 }
 @media (min-width:375px) {
 	.navbar {
-		font-size:.5em;
+		display:none;
 	}
 }
 @media (min-width:768px) {
 	.navbar {
-		font-size:.8em;
+		display:block;
+		font-size:100%;
 	}
 }
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	.navbar {
-		font-size:1em;
+		font-size:120%;
 	}
 }
 @media (min-width:1260px) {
@@ -1075,6 +1132,7 @@ textarea {
 		font-size:1.1em;
 	}
 }
+
 .navcontainer {
 	float:right;
 }
@@ -1139,9 +1197,21 @@ textarea {
 		font-size:2.5em;
 	}
 }
+
+.map {
+	overflow:hidden;
+	height:375px;
+	width:375px;
+	margin:0 auto;
+}
+#gmap_canvas {
+	width:700px;
+}
 .mapcontainer {
 	padding-top:2em;
 	padding-bottom:5em;
+	padding-left:0px;
+	padding-right:0px;
 }
 .footersocial {
 	background-color:#345a6c;
@@ -1236,14 +1306,8 @@ textarea {
 
 
 .headingcontainer {
-	margin-top:6em;
-	margin-bottom:4em;
-}
-@media (min-width:375px) {
-	.headingcontainer {
-		margin-top:4em;
-		margin-bottom:2em;
-}
+	margin-top:3%;
+	margin-bottom:3%;
 }
 @media (min-width:768px) {
 	.headingcontainer {
@@ -1251,22 +1315,22 @@ textarea {
 		margin-bottom:4em;
 }
 }
-@media (min-width:375px) {
-	h1 {
-		font-family: 'Merriweather', serif;
-		color:white;
-		font-size:1.5em;
-		text-align:center;
-		font-weight:300;
-	}
+h1 {
+	font-family: 'Merriweather', serif;
+	color:white;
+	font-size:130%;
+	text-align:center;
+	width:90%;
+	margin:0 auto;
+	font-weight:300;
+	letter-spacing:1.5px;
 }
 @media (min-width:768px) {
 	h1 {
-		font-family: 'Merriweather', serif;
-		color:white;
-		font-size:2em;
-		text-align:center;
-		font-weight:300;
+		font-size:200%;
+		width:90%;
+		margin:0 auto;
+		padding-bottom:1em;
 	}
 }
 @media (min-width:1024px) {
@@ -1285,49 +1349,40 @@ textarea {
 		font-size:2em;
 		text-align:center;
 		font-weight:300;
+	}
+}
+@media (min-width:992px) {
+	h1 {
+		width:15em;
+		margin:0 auto;
+		font-size:250%;
+		padding-bottom:1em;
 	}
 }
 
-@media (min-width:375px) {
-	p.looking {
-		font-family:'Libre Franklin', sans-serif;
-		color:white;
-		font-size:1em;
-		text-align:center;
-		font-weight:400;
-		margin-bottom:0px;
-	}
+p.looking {
+	font-family: 'Libre Franklin', sans-serif;
+	color: #ccc8bc;
+	font-size: 120%;
+	text-align:center;
+	font-weight:500;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-shadow:2px 2px 3px black;
+	padding-bottom:2%;
 }
+
 @media (min-width:768px) {
 	p.looking {
-		font-family:'Libre Franklin', sans-serif;
-		color:white;
-		font-size:1.5em;
-		text-align:center;
-		font-weight:400;
-		margin-bottom:0px;
+		font-size: 2em;
 	}
 }
 @media (min-width:1024px) {
 	p.looking {
-		font-family:'Libre Franklin', sans-serif;
-		color:white;
-		font-size:1.75em;
-		text-align:center;
-		font-weight:400;
-		margin-bottom:0px;
+		font-size: 2.1em;
 	}
 }
-@media (min-width:1260px) {
-	p.looking {
-		font-family:'Libre Franklin', sans-serif;
-		color:white;
-		font-size:1.75em;
-		text-align:center;
-		font-weight:400;
-		margin-bottom:0px;
-	}
-}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

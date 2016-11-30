@@ -9,9 +9,11 @@
 
         <link rel="stylesheet" href="../css/normalize.min.css">
         <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="js/main.js">
         
         <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
+        
 
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -21,22 +23,34 @@
 
         <div class="container">
         
-        
-            <div class="row row1">
-                <div class="col-xs-12" id="adbar">
-                    <p class="freeshipping">FREE STANDARD SHIPPING ON ORDERS OVER $30 </p>
-                    <a href="../Store/store.html" class="enjoyby">Enjoy by 12/18 >> </a>
-                </div>
-            </div>
-            
-            <div class="row row2">
+             <div class="row row2">
             	<div class="col-xs-12" id="navbar">
                 	<a href="../Landing/landing.html"><img src="assets/logo.png" alt="logo" class="strbckslogo"></a>
-                    <div class="navcontainer">
-                    	<a href="../Store/store.html" class="navbar">SHOP</a>
-                        <a href="" class="navbar">HOW TO BREW</a>
-                        <a href="../Map/mapindex.html" class="navbar">FIND A LOCATION</a>
-                    </div>
+                    
+                    <nav id="nav-menu2" class="nav-menu2">
+                    	<div class="navcontainer">
+                            <a href="../Store/store.html" class="navbar">SHOP</a>
+                            <a href="../Map/mapindex.html" class="navbar">FIND A LOCATION</a>
+                        </div>
+                    </nav>
+                    
+                    <button type="button" id="nav-menu-btn" class="nav-menu-btn" aria-haspopup="true" aria-expanded="false">
+                       <span class="menu-icon">
+                       		<div class="bar top-bar"></div>
+                            <div class="bar bottom-bar"></div>
+                       <span class="visuallyhidden">Open</span>
+                       <p class="menu">MENU</p>
+                       </span>
+                    </button>
+                    
+                    <nav id="nav-menu" class="nav-menu">
+                       <ul>
+                           <li class="li-spacing"><a href="../Store/store.html" class="nav-options">SHOP</a></li>
+                           <li class="li-spacing2"><a href="../Map/mapindex.html" class="nav-options">FIND A LOCATION</a></li>
+                           <li class="li-spacing2"><a href="../Landing/landing.html" class="nav-options">HOME</a></li>
+                       </ul>
+                    </nav>
+
                 </div>
             </div>
             
@@ -90,7 +104,7 @@
                     
                     <div class="row">
                     	<div class="col-xs-12">
-                        	<p class="names">State*:</p>
+                        	<p class="formtext">State*:</p>
                         	<select name="state" size="1" class="select-style">
                               <option value="AL">Alabama</option>
                               <option value="AK">Alaska</option>
@@ -163,19 +177,19 @@
                     
                     <div class="row">
                     	<div class="col-xs-12 radiobttn">
-                            <input type="radio" name="shipping-billing" value="yes"> <p>Billing address is same as shipping address.</p><br>
+                            <input type="radio" name="shipping-billing" value="yes"> <p class="formtext">Billing address is same as shipping address.</p><br>
                         </div>
                     </div>
                     
                     <div class="row">
                     	<div class="col-xs-12 radiobttn">
-                            <input type="radio" name="news-promotions" value="yes"> <p>Email Starbucks® news and promotions to this address?</p><br>
+                            <input type="radio" name="news-promotions" value="yes"> <p class="formtext">Email Starbucks® news and promotions to this address?</p><br>
                         </div>
                     </div>
                     
                     <div class="row">
                     	<div class="col-xs-12 radiobttn">
-                            <input type="radio" name="gift" value="yes"> <p>This item is a gift.</p><br>
+                            <input type="radio" name="gift" value="yes"> <p class="formtext">This item is a gift.</p><br>
                         </div>
                     </div>
                     

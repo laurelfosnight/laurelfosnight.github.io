@@ -947,89 +947,123 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.row1 {
-	width:100%;
-	margin:0 auto;
-	background-color: #345a6c;
+body {
+	background-color: #ccc8bc;
 }
-#adbar {
-	padding-bottom:1em;
-}
-.freeshipping {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:2em;
+p {
 	color:white;
-	line-height:.1em;
-	padding-left:.5em;
-	padding-top:.5em;
-}
-@media (min-width:375px) {
-	.freeshipping {
-		font-size:.7em;
-	}
-}
-@media (min-width:768px) {
-	.freeshipping {
-		font-size:.9em;
-	}
-}
-@media (min-width:1024px) {
-	.freeshipping {
-		font-size:1.1em;
-	}
-}
-@media (min-width:1260px) {
-	.freeshipping {
-		font-size:1.1em;
-	}
-}
-.enjoyby {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:1.5em;
-	color:#ec8c42;
-	padding-left:.6em;
-	padding-top:0em;
-}
-@media (min-width:375px) {
-	.enjoyby {
-		font-size:.3em;
-	}
-}
-@media (min-width:768px) {
-	.enjoyby {
-		font-size:.7em;
-	}
-}
-@media (min-width:1024px) {
-	.enjoyby {
-		font-size:.9em;
-	}
-}
-@media (min-width:1260px) {
-	.enjoyby {
-		font-size:.9em;
-	}
-}
-.bttn {
-	font-family: 'Libre Franklin', sans-serif;
-	color:#231f20;
-	font-size:100%;
+	margin-bottom:0px;
+	font-size:90%;
 	text-align:center;
-	padding-left:10%;
-	padding-right:10%;
-	padding-top:.5%;
-	padding-bottom:.5%;
-	background-color:white;
-	border:.2px solid black;
-	border-radius:2px;
-	margin-bottom:8%;
+	padding-top:25px;
 }
-.button {
-	text-align:center;
+.li-spacing {
+	padding-top:15px;
+}
+.li-spacing2 {
+	padding-top:2%;
+}
+a:hover {
+	color: #26989b;
+	font-weight:500;
+}
+.nav-menu-btn {
+   padding: 5px;
+   border: none;
+   background-color:#0b111c;
+   float:right;
+   margin-right:10%;
+   margin-top:-50px;
+}
+.menu-icon {
+   display: block;
+   margin: 0 auto 5px;
+   height: 15px;
+   margin-bottom: 2px;
+   position: relative;
+   width: 15px;
+}
+.bar {
+   background: white;
+   height: 4px;
+   left: 0;
+   border-radius:1px;
+   position: absolute;
+   -webkit-transition: all 100ms linear 0s;
+   -moz-transition: all 100ms linear 0s;
+   -o-transition: all 100ms linear 0s;
+   transition: all 100ms linear 0s;
+   top: 50%;
+   width: 30px;
+}
+.top-bar {
+   margin-top: -4px;
+}
+.bottom-bar {
+   margin-top: 8px;
+}
+.expanded .top-bar {
+   margin-top: 0;
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.expanded .bottom-bar {
+   margin-top: 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+@media screen and (min-width: 768px) {
+   .nav-menu-btn {
+       display: none;
+   }
+}
+@media screen and (min-width: 768px) {
+   .nav-menu {
+       display: none;
+   }
+}
+.nav-menu {
+   overflow: hidden;
+   padding-right:6%;
+   text-align: right;
+}
+.nav-menu ul {
+   list-style: none;
+   padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+   .nav-menu {
+       height: 0;
+   }
+   .nav-menu.expanded {
+       height: auto;   
+   }
+}
+.nav-options {
+	font-family:'Libre Franklin', sans-serif;
+	color:white;
+	text-decoration:none;
 }
 #navbar {
-	padding-top: 2em;
-	padding-bottom:2em;
+	padding:5%;
+}
+@media screen and (max-width: 768px) {
+   #navbar {
+	   padding:5%;
+	   padding-bottom:3%;
+   }
+}
+@media screen and (max-width: 992px) {
+   #navbar {
+	   padding:5%;
+	   padding-bottom:2%;
+   }
 }
 .row2 {
 	width:100%;
@@ -1069,22 +1103,23 @@ textarea {
 	font-size:1.3em;
 	color:white;
 	text-decoration: none;
-	padding-top:5em;
 	padding-right:1.5em;
+	margin-top:-20px;
 }
 @media (min-width:375px) {
 	.navbar {
-		font-size:.5em;
+		display:none;
 	}
 }
 @media (min-width:768px) {
 	.navbar {
-		font-size:.8em;
+		display:block;
+		font-size:100%;
 	}
 }
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	.navbar {
-		font-size:1em;
+		font-size:120%;
 	}
 }
 @media (min-width:1260px) {
@@ -1092,6 +1127,7 @@ textarea {
 		font-size:1.1em;
 	}
 }
+
 .navcontainer {
 	float:right;
 }
@@ -1102,44 +1138,43 @@ textarea {
 	background-repeat:no-repeat;
 }
 .thankyou {
-	font-family:'Libre Franklin', sans-serif;
-	color:white;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #ccc8bc;
+	font-size: 130%;
 	text-align:center;
-	font-weight:400;
-	line-height:.5em;
-}
-@media (min-width:375px) {
-	.thankyou {
-		font-size:1.5em;
-	}
+	font-weight:500;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-shadow:1px 1px 1px black;
 }
 @media (min-width:768px) {
 	.thankyou {
-		font-size:1.8em;
-	}
+		margin-left:1.5%;
+		font-size:150%;
+}
+}
+@media (min-width:992px) {
+	.thankyou {
+		margin-left:1.5%;
+		font-size:170%;
+}
 }
 @media (min-width:1024px) {
 	.thankyou {
-		font-size:2em;
-	}
+		margin-left:1.5%;
+		font-size:190%;
 }
-@media (min-width:1260px) {
-	.thankyou {
-		font-size:2em;
-	}
 }
 .successful {
 	font-family: 'Merriweather', serif;
-	color:white;
-	font-size:3em;
+	color: white;
+	font-size:130%;
 	text-align:center;
-	font-weight:300;
+	padding-top:2%;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-weight:400;
 	letter-spacing:3px;
-}
-@media (min-width:375px) {
-	.successful {
-		font-size:1.8em;
-	}
 }
 @media (min-width:768px) {
 	.successful {
@@ -1156,9 +1191,35 @@ textarea {
 		font-size:2.5em;
 	}
 }
+.button {
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:2%;
+	margin-bottom:10%;
+}
+.bttn {
+	font-family: 'Libre Franklin', sans-serif;
+	color:#231f20;
+	font-size:70%;
+	text-align:center;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:1%;
+	padding-bottom:1%;
+	background-color:white;
+	border:.2px solid black;
+	border-radius:4px;
+	box-shadow:1px 1px 6px black;
+}
+@media (min-width:768px) {
+	.bttn {
+		font-size:80%;
+	}
+}
 .thankyoucontainer {
-	padding-top:5em;
-	padding-bottom:2em;
+	padding-top:5%;
+	padding-bottom:5%;
 }
 .footersocial {
 	background-color:#345a6c;

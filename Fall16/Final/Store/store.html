@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="../css/normalize.min.css">
         <link rel="stylesheet" href="css/store.css">
+        <link rel="stylesheet" href="js/main.js">
         
         <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
@@ -22,20 +23,34 @@
         <div class="container">
         
         
-            <div class="row row1">
-                <div class="col-xs-12" id="adbar">
-                    <p class="freeshipping">FREE STANDARD SHIPPING ON ORDERS OVER $30 </p>
-                    <a href="" class="enjoyby">Enjoy by 12/18 >> </a>
-                </div>
-            </div>
-            
-            <div class="row row2">
+           <div class="row row2">
             	<div class="col-xs-12" id="navbar">
                 	<a href="../Landing/landing.html"><img src="assets/logo.png" alt="logo" class="strbckslogo"></a>
-                    <div class="navcontainer">
-                        <a href="" class="navbar">HOW TO BREW</a>
-                        <a href="../Map/mapindex.html" class="navbar">FIND A LOCATION</a>
-                    </div>
+                    
+                    <nav id="nav-menu2" class="nav-menu2">
+                    	<div class="navcontainer">
+                            <a href="../Map/mapindex.html" class="navbar">FIND A LOCATION</a>
+                            <a href="../Form/form.html" class="navbar">BILLING</a>
+                        </div>
+                    </nav>
+                    
+                    <button type="button" id="nav-menu-btn" class="nav-menu-btn" aria-haspopup="true" aria-expanded="false">
+                       <span class="menu-icon">
+                       		<div class="bar top-bar"></div>
+                            <div class="bar bottom-bar"></div>
+                       <span class="visuallyhidden">Open</span>
+                       <p class="menu">MENU</p>
+                       </span>
+                    </button>
+                    
+                    <nav id="nav-menu" class="nav-menu">
+                       <ul>
+                           <li class="li-spacing"><a href="../Store/store.html" class="nav-options">SHOP</a></li>
+                           <li class="li-spacing2"><a href="../Map/mapindex.html" class="nav-options">FIND A LOCATION</a></li>
+                           <li class="li-spacing2"><a href="#" class="nav-options">ABOUT</a></li>
+                       </ul>
+                    </nav>
+
                 </div>
             </div>
             
@@ -62,13 +77,13 @@
                         	<div class="container product-container">
                                 <div class="imgbttn">
                                     <div id="image" class="content"></div><br>
+                                    <p class="price">$12.95</p>
                                     <a href="../Form/form.html"><button type="button" class="bttn">ADD TO BAG</button></a>
                                 </div>
                                 <div class="text content">
                                     <h3>Anniversary Blue Siren Mug</h3>
                                     <p class="bodycopy">A blue ceramic mug featuring an etched Siren design. Part of the Starbucks® Anniversary Collection.</p>
                                     <p class="availability">Availability: In-Stock</p>
-                                    <p class="price">$12.95</p>
                                 </div>
                             </div>
                         </div>
@@ -77,13 +92,13 @@
                         	<div class="container product-container">
                                 <div class="imgbttn">
                                     <div id="image2" class="content"></div><br>
+                                    <p class="price">$10.95</p>
                                     <a href="../Form/form.html"><button type="button" class="bttn">ADD TO BAG</button></a>
                                 </div>
                                 <div class="text content">
                                     <h3>Star Siren Mug</h3>
                                     <p class="bodycopy">A white mug with a blue sketch design of a star–crowned Siren. Available exclusively online.</p>
                                     <p class="availability">Availability: In-Stock</p>
-                                    <p class="price">$10.95</p>
                                 </div>
                             </div>
                         </div>
@@ -94,13 +109,13 @@
                         	<div class="container product-container">
                                 <div class="imgbttn">
                                     <div id="image3" class="content"></div><br>
+                                    <p class="price">$9.95</p>
                                     <a href="../Form/form.html"><button type="button" class="bttn">ADD TO BAG</button></a>
                                 </div>
                                 <div class="text content">
                                     <h3>Anniversary Crown Mug</h3>
                                     <p class="bodycopy">A ceramic mug featuring a raised star crown design and a unique glaze finish.</p>
                                     <p class="availability">Availability: In-Stock</p>
-                                    <p class="price">$9.95</p>
                                 </div>
                         	</div>	
                         </div>
@@ -108,13 +123,13 @@
                         	<div class="container product-container">
                                 <div class="imgbttn">
                                     <div id="image4" class="content"></div><br>
+                                    <p class="price">$22.46</p>
                                     <a href="../Form/form.html"><button type="button" class="bttn">ADD TO BAG</button></a>
                                 </div>
                                 <div class="text content">
                                     <h3>Anniversary Traveler with Swaroski® Crystals</h3>
                                     <p class="bodycopy">A ceramic traveler adorned with Swarovski® crystals.</p>
                                     <p class="availability">Availability: In-Stock</p>
-                                    <p class="price">$22.46</p>
                                 </div>
                             </div>
                         </div>
@@ -125,13 +140,13 @@
                         	<div class="container product-container">
                                 <div class="imgbttn">
                                     <div id="image5" class="content"></div><br>
+                                    <p class="price">$12.95</p>
                                     <a href="../Form/form.html"><button type="button" class="bttn">ADD TO BAG</button></a>
                                 </div>
                                 <div class="text content">
                                     <h3>Anniversary Whole Bean Blend</h3>
                                     <p class="bodycopy">Complex and full-bodied with a distinctive bold, spicy flavor.</p>
                                     <p class="availability">Availability: In-Stock</p>
-                                    <p class="price">$12.95</p>
                                 </div>
                             </div>
                         </div>
@@ -139,13 +154,13 @@
                         	<div class="container product-container">
                                 <div class="imgbttn">
                                     <div id="image6" class="content"></div><br>
+                                    <p class="price">$12.95</p>
                                     <a href="../Form/form.html"><button type="button" class="bttn">ADD TO BAG</button></a>
                                 </div>
                                 <div class="text content">
                                     <h3>Anniversary Blend Verismo® Pods</h3>
                                     <p class="bodycopy">Complex and full-bodied with a distinctive bold, spicy flavor.</p>
                                     <p class="availability">Availability: In-Stock</p>
-                                    <p class="price">$12.95</p>
                                 </div>
                             </div>
                         </div>
